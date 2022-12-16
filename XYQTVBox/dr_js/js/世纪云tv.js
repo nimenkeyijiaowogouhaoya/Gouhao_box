@@ -1,0 +1,16 @@
+var rule={     
+    title:'世纪云tv',     
+    host:'https://v.yiio.club/',     
+    url:'/index.php/vod/show/id/fyclass/page/fypage.html',
+    searchUrl:'/index.php/vod/search/page/fypage/wd/**.html', 
+    searchable:2,
+    quickSearch:1,
+    filterable:0,
+    headers:{'User-Agent':'MOBILE_UA',         },     
+    class_name:'电影&电视剧&综艺&动漫&b站&纪录片&体育赛事',     
+    class_url:'1&2&3&4&28&33&34',     
+    推荐:'.module-item;a&&title;.lazy&&data-src;.module-item-caption&&Text;a&&href',
+    一级:'.module-item;a&&title;.lazy&&data-src;.module-item-caption&&Text;a&&href',
+    二级:{"title":"h1&&Text;","img":".lazyload&&data-src","desc":";;.video-info-items:eq(0)&&Text;.video-info-items:eq(1)div&&Text;.video-info-items:eq(3)&&Text","content":".video-info-items:eq(5)&&Text","tabs":'.module-tab-content&&span',"lists":".scroll-box-y:eq(#id) a"},     
+    搜索:'.module-search-item;h3&&Text;.lazy&&data-src;.video-info-aux&&a:eq(1)&&Text;a&&href', 
+}

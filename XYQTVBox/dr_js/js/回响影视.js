@@ -1,0 +1,16 @@
+var rule = {
+    title:'回响影视',
+    host:'https://hxys.tv',
+    url:'/vodshow/fyclass--------fypage---.html',
+    searchUrl:'/tvfensearch/**----------fypage---.html',
+    searchable:2,
+    quickSearch:0,
+    filterable:0,
+    headers:{'User-Agent':'PC_UA',},
+    class_name:'电影&剧集&综艺&动漫&记录',
+    class_url:'1&2&3&4&5',
+    推荐:'.aplus-exp;a&&title;div&&data-original;.pack-prb&&Text;a&&href',
+    一级:'.aplus-exp;a&&title;div&&data-original;.pack-prb&&Text;a&&href',
+    二级:{"title":"h1&&Text;.item-director a&&Text;","img":".module-item-pic&&img&&data-src","desc":";;.s-top-info-detail p:eq(1) a&&Text;.s-top-info-detail p:eq(6)&&Text;.s-top-info-detail p:eq(5)&&Text","content":".desc_txt&&Text","tabs":".play_source_tab&&a","lists":".content_playlist:eq(#id) a"},
+    搜索:'.module-items .module-search-item;h3&&Text;img&&data-src;.video-serial&&Text;a&&href',
+}
