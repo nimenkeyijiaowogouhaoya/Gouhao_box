@@ -1,7 +1,6 @@
 {
     "wallpaper": "https://www.dmoe.cc/random.php",
     "spider": "./custom_spider.jar",
-    //"spider": "https://hikerfans.com/iptv/jar/my.jar",
     "lives": [
         {
             "group": "自定义",
