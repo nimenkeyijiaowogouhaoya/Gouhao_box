@@ -1,6 +1,7 @@
 {
     "wallpaper": "https://www.dmoe.cc/random.php",
     "spider": "./custom_spider.jar",
+    //"spider": "https://hikerfans.com/iptv/jar/my.jar",
     "lives": [
         {
             "group": "自定义",
@@ -34,7 +35,7 @@
 	    "api":"./dr_js/lib/alist.min.js",
 	    "ext":"./dr_js/alist.json"
 	  },
-        {
+        /*{
       "key": "AList",
       "name": "FM|AList",
       "type": 3,
@@ -43,7 +44,7 @@
       "filterable": 1,
       "ext": "./Alist.json",
       "jar": "./fm/custom_spider.jar"
-    },
+    },*/
         {
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
@@ -1982,7 +1983,7 @@
             "api": "./dr_js/lib/drpy.min.js",
             "ext": "./dr_js/js/异世界动漫.js"
         },
-        {
+        /*{
             "key": "drpy_js_18av",
             "name": "18av[DRPY]",
             "type": 3,
@@ -2030,7 +2031,7 @@
             "type": 3,
             "api": "./dr_js/lib/drpy.min.js",
             "ext": "./dr_js/js/苹果爱薇.js"
-        },
+        },*/
         /*{
             "key": "py_alist",
             "name": "py_alist(Pyramid)",
@@ -2041,7 +2042,7 @@
             "filterable": 0,
             "ext": "./dr_py/py/py_alist.py"
         },*/
-        {
+        /*{
             "key": "py_bilibili3",
             "name": "py_bilibili(dm)",
             "type": 3,
@@ -2050,7 +2051,7 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "./dr_py/py/py_bilibili3.py"
-        },
+        },*/
         {
             "key": "py_bilibili",
             "name": "py_bilibili(Pyramid)",
