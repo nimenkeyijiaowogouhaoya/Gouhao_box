@@ -2170,8 +2170,18 @@
             "url": "http://jxx.xn--l6q92vla825x.com/home/api?type=ys&uid=3036762&key=hquwzADEFKNPTX0458&url="
         },
         {
+            "name": "3-8090",
+            "type": 0,
+            "url": "https://www.8090.la/8090/?url="
+        },
+        {
+            "name": "4-ok解析",
+            "type": 0,
+            "url": "https://www.8090.la/8090/?url="
+        },
+        {
             "name": "7-parwix1",
-            "type": 1,
+            "type": 0,
             "url": "https://jx.bozrc.com:4433/player/?url=",
             "ext": {
                 "flag": [
@@ -2196,33 +2206,18 @@
             }
         },
         {
-            "name": "8-闪影解析",
-            "type": 1,
-            "url": "https://sytv.cc/dp/?url="
-        },
-        {
-            "name": "9-酷云",
-            "type": 1,
-            "url": "http://101.34.67.237:5705/parse/api/酷云.js?url="
-        },
-        {
-            "name": "10-江湖",
-            "type": 1,
-            "url": "http://101.34.67.237:5705/parse/api/江湖.js?url="
-        },
-        {
             "name": "11-虾米",
-            "type": 1,
+            "type": 0,
             "url": "https://jx.xmflv.com/?url="
         },
         {
             "name": "12-麒麟",
-            "type": 1,
+            "type": 0,
             "url": "https://www.cygqw.com/jiexi/jiekou-2/?url="
         },
         {
             "name": "13-m3u8tv",
-            "type": 1,
+            "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         }
     ],
