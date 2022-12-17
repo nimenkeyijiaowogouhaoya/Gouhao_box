@@ -2155,32 +2155,7 @@
             "url": "Parallel"
         },
         {
-            "name": "Json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
-        {
-            "name": "1-看看",
-            "type": 1,
-            "url": "http://jxx.xn--l6q92vla825x.com/home/api?type=ys&uid=3029054&key=hnpruvzCDEFHT15679&url="
-        },
-        {
-            "name": "2-看看2",
-            "type": 1,
-            "url": "http://jxx.xn--l6q92vla825x.com/home/api?type=ys&uid=3036762&key=hquwzADEFKNPTX0458&url="
-        },
-        {
-            "name": "3-8090",
-            "type": 0,
-            "url": "https://www.8090.la/8090/?url="
-        },
-        {
-            "name": "4-ok解析",
-            "type": 0,
-            "url": "https://www.8090.la/8090/?url="
-        },
-        {
-            "name": "7-parwix1",
+            "name": "1-parwix1",
             "type": 0,
             "url": "https://jx.bozrc.com:4433/player/?url=",
             "ext": {
@@ -2206,19 +2181,19 @@
             }
         },
         {
-            "name": "11-虾米",
+            "name": "2-夜幕",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url="
+            "url": "https://www.yemu.xyz/?url="
         },
         {
-            "name": "12-麒麟",
+            "name": "3-2090",
             "type": 0,
-            "url": "https://www.cygqw.com/jiexi/jiekou-2/?url="
+            "url": "https://m2090.com/?url="
         },
         {
-            "name": "13-m3u8tv",
+            "name": "4-诺讯",
             "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url="
+            "url": "https://www.nxflv.com/?url="
         }
     ],
     "flags": [
