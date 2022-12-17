@@ -16,17 +16,6 @@
         }
     ],
     "sites": [
-    /*{
-	    "key":"Alist",
-	    "name":"Alist",
-	    "type":3,
-	    "api":"http://101.34.67.237/libs/alist.min.js",
-	    "searchable":1,
-	    "quickSearch":1,
-	    "filterable":0,
-	    "ext":"http://101.34.67.237/txt/json/alist.json",
-	    "jar":"http://101.34.67.237/files/custom_spider_tang.jar"
-	},*/
 	  {
 	    "key":"drpy_js_Alist",
 	    "name":"DR| Alist[js]",
@@ -34,16 +23,6 @@
 	    "api":"./dr_js/lib/alist.min.js",
 	    "ext":"./dr_js/alist.json"
 	  },
-        /*{
-      "key": "AList",
-      "name": "FM|AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "filterable": 1,
-      "ext": "./Alist.json",
-      "jar": "./fm/custom_spider.jar"
-    },*/
         {
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
@@ -68,16 +47,9 @@
            "api":"csp_Dora",
            "searchable":"1",
            "quickSearch":"1",
-           "filterable":"1","ext":"9248c57eb22ace4a34看fbd1a979465f",
+           "filterable":"1","ext":"9248c57eb22ace4a3431fbd1a979465f",
            "jar":"./Tangs/custom_spider.jar"
          },
-        {
-            "key": "drpy_js_哔哩影视",
-            "name": "正版|哔哩影视",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/哔哩影视.js"
-        },
         {
             "key": "drpy_js_360影视",
             "name": "官源|360[DRPY]",
@@ -120,38 +92,6 @@
             "api": "./dr_js/lib/drpy.min.js",
             "ext": "./dr_js/js/百忙无果.js"
         },
-		/*{
-			"key": "千橙资源",
-			"name": "官源|千橙资源",
-			"type": 1,
-			"api": "http://124.223.10.96:8090/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
-			"key": "木子看剧",
-			"name": "官源|木子看剧",
-			"type": 1,
-			"api": "https://mzkj.maccms.cf/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
-			"key": "酷客资源",
-			"name": "官源|酷客资源",
-			"type": 1,
-			"api": "https://www.zhanlangbu.com/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1
-		},
-		{
-			"key": "诺讯资源",
-			"name": "官源|诺讯资源",
-			"type": 1,
-			"api": "http://caiji.nxflv.com/api.php/provide/vod/",
-			"searchable": 1,
-			"quickSearch": 1
-		},*/
         {
             "key":"Gitcafe",
             "name":"纸条",
@@ -1982,135 +1922,6 @@
             "api": "./dr_js/lib/drpy.min.js",
             "ext": "./dr_js/js/异世界动漫.js"
         },
-        /*{
-            "key": "drpy_js_18av",
-            "name": "18av[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/18av.js"
-        },
-        {
-            "key": "drpy_js_跑TV",
-            "name": "跑TV[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/跑TV.js"
-        },
-        {
-            "key": "drpy_js_养端",
-            "name": "养端[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/养端.js"
-        },
-        {
-            "key": "drpy_js_吸瓜",
-            "name": "吸瓜[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/吸瓜.js"
-        },
-        {
-            "key": "drpy_js_猫了个咪",
-            "name": "猫了个咪(drpy)",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/猫了个咪.js"
-        },
-        {
-            "key": "drpy_js_HD",
-            "name": "HD(drpy)",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/HD_dr.js"
-        },
-        {
-            "key": "drpy_js_苹果爱薇",
-            "name": "苹果爱薇[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy.min.js",
-            "ext": "./dr_js/js/苹果爱薇.js"
-        },*/
-        /*{
-            "key": "py_alist",
-            "name": "py_alist(Pyramid)",
-            "type": 3,
-            "api": "py_alist",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_alist.py"
-        },*/
-        /*{
-            "key": "py_bilibili3",
-            "name": "py_bilibili(dm)",
-            "type": 3,
-            "api": "py_bilibili3",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilibili3.py"
-        },*/
-        {
-            "key": "py_bilibili",
-            "name": "py_bilibili(Pyramid)",
-            "type": 3,
-            "api": "py_bilibili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilibili.py"
-        },
-        {
-            "key": "py_bilimy",
-            "name": "py_bilimy(Pyramid)",
-            "type": 3,
-            "api": "py_bilimy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilimy.py"
-        },
-        {
-            "key": "py_bilimd",
-            "name": "py_bilimd(Pyramid)",
-            "type": 3,
-            "api": "py_bilimd",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilimd.py"
-        },
-        {
-            "key": "py_biliys",
-            "name": "py_biliys(Pyramid)",
-            "type": 3,
-            "api": "py_biliys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_biliys.py"
-        },
-        {
-            "key": "py_bilizb",
-            "name": "py_bilizb(Pyramid)",
-            "type": 3,
-            "api": "py_bilizb",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilizb.py"
-        },
-        {
-            "key": "py_bilivd",
-            "name": "py_bilivd(Pyramid)",
-            "type": 3,
-            "api": "py_bilivd",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./dr_py/py/py_bilivd.py"
-        },
         {
             "key": "py_gitcafe",
             "name": "py_小纸条",
@@ -2349,76 +2160,14 @@
             "url": "Sequence"
         },
         {
-            "name": "1-懒懒",
+            "name": "1-看看",
             "type": 1,
-            "url": "http://lanlan.ckflv.cn/?url="
+            "url": "http://jxx.xn--l6q92vla825x.com/home/api?type=ys&uid=3029054&key=hnpruvzCDEFHT15679&url="
         },
         {
-            "name": "2-kanb",
+            "name": "2-看看2",
             "type": 1,
-            "url": "https://kanb.tv/kanbplay/?url="
-        },
-        {
-            "name": "3-小白",
-            "type": 1,
-            "url": "http://110.42.2.115:880/analysis/json/?uid=2100&my=cqrtwyACDGLOXY0249&mgtv=app&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
-            }
-        },
-        {
-            "name": "4-爱妃",
-            "type": 1,
-            "url": "https://jx.zxzx.fun/?url="
-        },
-        {
-            "name": "5-52xd",
-            "type": 1,
-            "url": "https://play.52xd.tv/player/dp.php?code=xiaodao&key=&api=&url="
-        },
-        {
-            "name": "6-龟速",
-            "type": 1,
-            "url": "http://110.42.2.115:880/analysis/json/?uid=2100&my=cqrtwyACDGLOXY0249&url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
-                ]
-            }
+            "url": "http://jxx.xn--l6q92vla825x.com/home/api?type=ys&uid=3036762&key=hquwzADEFKNPTX0458&url="
         },
         {
             "name": "7-parwix1",
