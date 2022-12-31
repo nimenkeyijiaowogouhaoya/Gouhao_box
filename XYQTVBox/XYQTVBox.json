@@ -1875,6 +1875,21 @@
             "playerType": "2"
         },
         {
+            "key": "drpy_js_音悦网",
+            "name": "音乐|音悦网[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/音悦网.js"
+        },
+        {
+            "key": "drpy_js_种子音乐",
+            "name": "音乐|种子音乐[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/种子音乐.js",
+            "playerType": "2"
+        },
+        {
             "key": "drpy_js_蜻蜓FM",
             "name": "广播|蜻蜓FM[DRPY]",
             "type": 3,
@@ -2145,6 +2160,16 @@
             "ext": "./dr_py/py/py_czspp.py"
         },
         {
+            "key": "py_ikan",
+            "name": "py_爱看",
+            "type": 3,
+            "api": "py_ikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./dr_py/py/py_ikan.py"
+        },
+        {
         "key" : "py_zxzj",
         "name" : "py_在线之家",
         "type" : 3,
@@ -2178,6 +2203,16 @@
 {"key" : "py_baiying","name" : "py_百影视频","type" : 3,"api" : "py_baiying","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_baiying.py"},
 {"key" : "py_cokemv","name" : "py_cokemv","type" : 3,"api" : "py_cokemv","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_cokemv.py"},
 {"key" : "py_lezhu","name" : "py_乐猪影视","type" : 3,"api" : "py_lezhu","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_lezhu.py"},
+        {
+            "key": "py_xmly",
+            "name": "py_喜马拉雅",
+            "type": 3,
+            "api": "py_xmly",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./dr_py/py/py_xmly.py"
+        },
         {
             "key": "py_cctv",
             "name": "py_cctv",
@@ -2298,6 +2333,11 @@
             "url": "https://www.nxflv.com/?url="
         },
         {
+            "name":"6-江湖",
+            "type": 1,
+            "url": "http://45.248.10.163:4433/json.php?wap=0&url="
+        },
+        {
             "name": "11-小瓜",
             "type": 0,
             "url": "https://www.xiaogua.one/player/qqq.php?url="
@@ -2306,6 +2346,11 @@
             "name": "12-8090",
             "type": 0,
             "url": "https://www.8090.la/8090/?url="
+        },
+        {
+            "name":"13-小城",
+            "type": 0,
+            "url": "https://bf.xcds1.com/player/analysis.php?v="
         }
     ],
     "flags": [
