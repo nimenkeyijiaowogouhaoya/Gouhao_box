@@ -1906,6 +1906,14 @@
             "playerType": "2"
         },
         {
+            "key": "drpy_js_海洋听书",
+            "name": "听书|海洋听书[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/海洋听书.js",
+            "playerType": "2"
+        },
+        {
             "key": "drpy_js_听书网",
             "name": "听书|听书网[DRPY]",
             "type": 3,
