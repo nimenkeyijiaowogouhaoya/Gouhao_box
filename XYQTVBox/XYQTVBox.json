@@ -9,7 +9,7 @@
                     "name": "live",
                     "urls": [
                         //"proxy://do=live&type=txt&ext=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-                        "proxy://do=live&type=txt&ext=http://hiker.nokia.press/hikerule/rulelist.json?id=5388"
+                        "proxy://do=live&type=txt&ext=https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/live.txt"
                     ]
                 }
             ]
