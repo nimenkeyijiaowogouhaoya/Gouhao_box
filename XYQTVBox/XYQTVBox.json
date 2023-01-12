@@ -494,6 +494,27 @@
             "ext": "./dr_js/js/蚂蚁影视.js"
         },
         {
+            "key": "drpy_js_我的哔哩",
+            "name": "影视|[DRPY]我的哔哩",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/我的哔哩.js"
+        },
+        {
+            "key": "drpy_js_大豆",
+            "name": "影视|[DRPY]大豆影视",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/大豆.js"
+        },
+        {
+            "key": "drpy_js_午夜影视",
+            "name": "影视|[DRPY]午夜影视",
+            "type": 3,
+            "api": "./dr_js/lib/drpy.min.js",
+            "ext": "./dr_js/js/午夜影视.js"
+        },
+        {
             "key": "drpy_js_l0l",
             "name": "影视|l0l[DRPY]",
             "type": 3,
