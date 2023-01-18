@@ -21,6 +21,15 @@
         "showAll" : false,
         "search" : true
     },
+
+    {
+        "name": "梵天"
+        "server":"https://iemo.fun/",
+        "startPage":"/",
+        "showAll":false,
+        "search":true
+    },
+
         {
         "name" : "🐭米奇妙妙屋",
         "server" : "https://anime.mqmmw.ga",
