@@ -23,7 +23,7 @@
     },
 
     {
-        "name": "梵天"
+        "name": "梵天",
         "server":"https://iemo.fun/",
         "startPage":"/",
         "showAll":false,
