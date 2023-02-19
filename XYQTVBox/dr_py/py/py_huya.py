@@ -4,6 +4,12 @@ import sys
 sys.path.append('..') 
 from base.spider import Spider
 import json
+import re
+import time
+import html
+import base64
+import hashlib
+import urllib.parse
 
 class Spider(Spider):
 	def getName(self):
@@ -63,29 +69,53 @@ class Spider(Spider):
 		return result
 	def detailContent(self,array):
 		aid = array[0]
-		url = "http://live.yj1211.work/api/live/getRoomInfo?platform=huya&roomId={0}".format(aid)
-		rsp = self.fetch(url)
-		jRoot = json.loads(rsp.text)
-		jo = jRoot['data']
-		title = jo['roomName']
-		pic = jo['roomPic']
-		desc = str(jo['online'])
-		dire = jo['ownerName']
-		typeName = jo['categoryName']
-		remark = jo['categoryName']
+		url = 'https://www.huya.com/' + aid
+		header = {
+			'Content-Type': 'application/x-www-form-urlencoded',
+			'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36'
+		}
+		rsp = self.fetch(url, headers=header)
+		streamInfo = re.findall(r'stream: ([\s\S]*?)\n', rsp.text)
+		if (len(streamInfo) > 0):
+			liveData = json.loads(streamInfo[0])
+		else:
+			streamInfo = re.findall(r'"stream": "([\s\S]*?)"', rsp.text)
+			if (len(streamInfo) > 0):
+				liveDataBase64 = streamInfo[0]
+				liveData = json.loads(str(base64.b64decode(liveDataBase64), 'utf-8'))
+		streamInfoList = liveData['data'][0]['gameStreamInfoList']
 		vod = {
 			"vod_id": aid,
-			"vod_name": title,
-			"vod_pic": pic,
-			"type_name": typeName,
+			"vod_name": liveData['data'][0]['gameLiveInfo']['roomName'],
+			"vod_pic": liveData['data'][0]['gameLiveInfo']['screenshot'],
+			"type_name": liveData['data'][0]['gameLiveInfo']['gameFullName'],
 			"vod_year": "",
 			"vod_area": "",
-			"vod_remarks": remark,
-			"vod_actor": '在线人数:' + desc,
-			"vod_director": dire,
+			"vod_remarks": "",
+			"vod_actor": "",
+			"vod_director": "",
 			"vod_content": ""
 		}
-		playUrl = '原画' + '${0}#'.format(aid)
+		playUrl = ''
+		for streamInfo in streamInfoList:
+			hls_url = streamInfo['sHlsUrl'] + '/' + streamInfo['sStreamName'] + '.' + streamInfo['sHlsUrlSuffix']
+			srcAntiCode = html.unescape(streamInfo['sHlsAntiCode'])
+			c = srcAntiCode.split('&')
+			c = [i for i in c if i != '']
+			n = {i.split('=')[0]: i.split('=')[1] for i in c}
+			fm = urllib.parse.unquote(n['fm'])
+			u = base64.b64decode(fm).decode('utf-8')
+			hash_prefix = u.split('_')[0]
+			ctype = n.get('ctype', '')
+			txyp = n.get('txyp', '')
+			fs = n.get('fs', '')
+			t = n.get('t', '')
+			seqid = str(int(time.time() * 1e3 + 1463993859134))
+			wsTime = hex(int(time.time()) + 3600).replace('0x', '')
+			hash = hashlib.md5('_'.join([hash_prefix, '1463993859134', streamInfo['sStreamName'], hashlib.md5((seqid + '|' + ctype + '|' + t).encode('utf-8')).hexdigest(), wsTime]).encode('utf-8')).hexdigest()
+			ratio = ''
+			purl = "{}?wsSecret={}&wsTime={}&seqid={}&ctype={}&ver=1&txyp={}&fs={}&ratio={}&u={}&t={}&sv=2107230339".format( hls_url, hash, wsTime, seqid, ctype, txyp, fs, ratio, '1463993859134', t)
+			playUrl = playUrl + '{}${}#'.format(streamInfo['sCdnType'], purl)
 		vod['vod_play_from'] = '虎牙直播'
 		vod['vod_play_url'] = playUrl
 
@@ -100,22 +130,14 @@ class Spider(Spider):
 		return result
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
-		url = 'https://mp.huya.com/cache.php?m=Live&do=profileRoom&roomid={0}'.format(id)
-		rsp = self.fetch(url)
-		jRoot = json.loads(rsp.text)
-		if jRoot['data']['liveStatus'] != 'ON':
-			return {}
-		jo = jRoot['data']
-		ja = jo['stream']['baseSteamInfoList'][0]['sStreamName']
-		url = 'http://txtest-xp2p.p2p.huya.com/src/' + ja + '.xs?ratio=4000'
-
+		url = id
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
 		result["header"] = {
 			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 		}
-		result["contentType"] = 'video/x-flv'
+		result["contentType"] = ''
 		return result
 
 	config = {
