@@ -1682,7 +1682,7 @@
             "name": "量子影视[DRPY]",
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/量子影视.js"
+            "ext": "./dr_js/js/量子.js"
         },
         {
             "key": "drpy_js_Fun4K",
