@@ -2,7 +2,7 @@
 //本文档为完整模板，实际情况可按规则写法删去不需要的。
 {
     //规则名
-    "title": "皮皮鸭",
+    "title": "HG影视",
     //作者
     "author": "狗浩啊",
     //请求头UA,键名$键值，每一组用#分开，不填则默认okhttp/3.12.11，可填MOBILE_UA或PC_UA使用内置的手机版或电脑版UA
@@ -15,28 +15,28 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://www.pipiya.cc/vodtype/{cateId}/page/{catePg}.html",
+    "class_url": "https://hong.hgyx.vip/index.php/vodtype/{cateId}-{catePg}.html",
     //分类名，分类1&分类2&分类3
-    "class_name": "电影&国产剧&美剧&日韩剧&泰剧&其他剧&动漫",
+    "class_name": "电影&电视剧&动漫&综艺"
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "20&26&21&28&24&27&25",
+    "class_value": "1&2&4&3",
     //筛选数据，json格式，参考官方仓库的筛选写法
     "filterdata":{},
     //分类页面截取数据模式，0为json，1为普通网页。
     "cat_mode": "1",
     
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": "body&&.public-list-box",
+    "cat_arr_rule": "body&&.module-item",
     //分类片单标题
     "cat_title": "a&&title",
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片
-    "cat_pic": ".lazy&&data-original",
+    "cat_pic": "img&&data-sr",
     //分类片单副标题
-    "cat_subtitle":"span&&Text",
+    "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.pipiya.cc",
+    "cat_prefix": "https://hong.hgyx.vip/",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -44,27 +44,27 @@
     "SHeaders":"User-Agent$手机",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://www.pipiya.cc/vodsearch.html?wd={wd}",
+    "search_url": "https://hong.hgyx.vip/index.php/ajax/suggest?mid=1&wd={wd}",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
-    "sea_PtBody":"",
+    "sea_PtBody":"wd={wd}&search=",
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
-    "search_mode": "1",
+    "search_mode": "0",
     
     //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "body&&.search-box",
+    "sea_arr_rule": "list",
     //搜索json片单图片
-    "sea_pic": ".lazy&&data-original",
+    "sea_pic": "pic",
     //搜索json片单标题
-    "sea_title": ".thumb-txt&&Text",
+    "sea_title": "name",
     //搜索json片单链接
-    "sea_url": "a&&href",
+    "sea_url": "id",
     //json片单副标题，这个很少有，预留着
     "sea_subtitle":"",
     
     //搜索片单链接补前缀
-    "search_prefix": "https://www.pipiya.cc",
+    "search_prefix": "https://hong.hgyx.vip/index.php/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
-    "search_suffix": "",
+    "search_suffix": ".html",
     
     //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
     //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
@@ -83,20 +83,20 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路截取数组前
-    "tab_arr_rule":".nav-swiper&&a",
+    "tab_arr_rule": "body&&.tab-item",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "a--i--span&&Text",
+    "tab_title": "span&&Text",
     
     //列表数组截取前，必须
-    "list_arr_rule": "body&&.anthology-list-box",
+    "list_arr_rule": "body&&.scroll-box-y",
     //集数数组截取前，必须
-    "epi_arr_rule": "ul&li",
+    "epi_arr_rule": "body&&a",
     //集数标题，截取前缀&&截取后缀
     "epi_title": "a&&Text",
     //集数链接，截取前缀&&截取后缀
     "epi_url": "a&&href",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.pipiya.cc",
+    "epiurl_prefix": "https://hong.hgyx.vip",
     //集数链接补后缀
     "epiurl_suffix": "",
     
