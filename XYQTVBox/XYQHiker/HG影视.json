@@ -32,11 +32,11 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片
-    "cat_pic": "img&&data-sr",
+    "cat_pic": "img&&data-src",
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://hong.hgyx.vip/",
+    "cat_prefix": "https://hong.hgyx.vip",
     //分类片单链接补后缀
     "cat_suffix": "",
     
