@@ -62,7 +62,7 @@
     "sea_subtitle":"",
     
     //搜索片单链接补前缀
-    "search_prefix": "https://hong.hgyx.vip/voddetail/",
+    "search_prefix": "https://hong.hgyx.vip/index.php/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
