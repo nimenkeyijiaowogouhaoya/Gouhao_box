@@ -136,16 +136,6 @@
             "ext": "http://aliys.cn:90/api.php/v1.vod"
         },
         {
-            "key": "csp_XYQHiker_Moefun",
-            "name": "Moefun(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/Moefun.json"
-        },
-		{
             "key": "csp_XYQHiker_HG影视",
             "name": "HG影视(XYQH)",
             "type": 3,
@@ -154,6 +144,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/HG影视.json"
+        },
+        {
+            "key": "csp_XYQHiker_Moefun",
+            "name": "Moefun(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/Moefun.json"
         },
         {
             "key": "csp_XYQHiker_麻花影视",
@@ -2112,6 +2112,34 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/慢大浪.js"
+        },
+        {
+            "key": "drpy_js_皮皮鸭",
+            "name": "皮皮鸭[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/皮皮鸭.js"
+        },
+        {
+            "key": "drpy_js_追剧迷",
+            "name": "追剧迷[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/追剧迷.js"
+        },
+        {
+            "key": "drpy_js_飞飞影视",
+            "name": "飞飞影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/飞飞影视.js"
+        },
+        {
+            "key": "drpy_js_秋霞影视",
+            "name": "秋霞影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/秋霞影视.js"
         },
         {
             "key": "drpy_js_唐人街影视[飞]",
