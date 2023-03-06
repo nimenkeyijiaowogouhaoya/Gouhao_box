@@ -15,28 +15,28 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://www.moefun.net/vodshow/{cateId}--{by}------{catePg}---/",
+    "class_url": "https://www.2kdm.com/vodshow/{cateId}--{by}------{catePg}---/",
     //分类名，分类1&分类2&分类3
-    "class_name": "当季新番&番剧&剧场",
+    "class_name": "日漫&美漫&特摄",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
-    "class_value": "E11114&H11114&c11114",
+    "class_value": "20&24&25",
     //筛选数据，json格式，参考官方仓库的筛选写法
     "filterdata":{},
     //分类页面截取数据模式，0为json，1为普通网页。
     "cat_mode": "1",
     
     //分类列表数组定位，最多支持3层，能力有限，不是所有页面都能支持
-    "cat_arr_rule": "body&&.video-item",
+    "cat_arr_rule": "body&&.module-poster-item",
     //分类片单标题
-    "cat_title": "h3&&a&&Text",
+    "cat_title": "a&&title",
     //分类片单链接
-    "cat_url": "h3&&a&&href",
+    "cat_url": "a&&href",
     //分类片单图片
     "cat_pic": ".lazy&&data-original",
     //分类片单副标题
-    "cat_subtitle":"span&&Text",
+    "cat_subtitle":".module-item-note&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://www.moefun.net",
+    "cat_prefix": "https://www.2kdm.com",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -44,25 +44,25 @@
     "SHeaders":"User-Agent$手机",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://www.moefun.net/vodsearch/-------------/?wd={wd}",
+    "search_url": "https://www.2kdm.com/vodsearch/-------------.html?wd={wd}",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"",
     //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
     "search_mode": "1",
     
     //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "body&&.video-item",
+    "sea_arr_rule": "body&&.module-card-item",
     //搜索json片单图片
     "sea_pic": ".lazy&&data-original",
     //搜索json片单标题
-    "sea_title": "h3&&a&&Text",
+    "sea_title": "img&&alt",
     //搜索json片单链接
-    "sea_url": "h3&&a&&href",
+    "sea_url": "a&&href",
     //json片单副标题，这个很少有，预留着
     "sea_subtitle":"",
     
     //搜索片单链接补前缀
-    "search_prefix": "https://www.moefun.net",
+    "search_prefix": "https://www.2kdm.com",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": "",
     
@@ -77,33 +77,33 @@
     "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
     
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "h1&&Text",
+    "proj_actor": ".module-info-item,2&&Text",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "",
+    "proj_plot": ".module-info-item&&Text",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路截取数组前
-    "tab_arr_rule":"tbody&&.multilink-title",
+    "tab_arr_rule":"body&&.module-tab-item",
     //线路标题，截取前缀&&截取后缀
     "tab_title": "Text",
     
     //列表数组截取前，必须
-    "list_arr_rule": "tbody&&tr",
+    "list_arr_rule": "body&&.module-play-list",
     //集数数组截取前，必须
-    "epi_arr_rule": "tr&&a",
+    "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
     "epi_title": "a&&Text",
     //集数链接，截取前缀&&截取后缀
     "epi_url": "a&&href",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.moefun.net",
+    "epiurl_prefix": "https://www.2kdm.com",
     //集数链接补后缀
     "epiurl_suffix": "",
     
     //下面几个参数请勿乱用。否则可能会有副作用。
     //分析网页源码中有<script type="text/javascript">var player_aaaa={"flag":"play","encrypt这种源码的链接解析
     //如果网页源码里没有这种请设置为0
-    "Anal_MacPlayer":"0",
+    "Anal_MacPlayer":"1",
     //是否开启手动嗅探，只对网页嗅探有效，0否，1是
     "ManualSniffer":"1",
     //手动嗅探视频链接关键字，每个用#隔开
