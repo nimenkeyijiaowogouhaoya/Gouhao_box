@@ -156,6 +156,16 @@
             "ext": "./XYQHiker/咕咕番.json"
         },
         {
+            "key": "csp_XYQHiker_趣动漫",
+            "name": "趣动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/趣动漫.json"
+        },
+        {
             "key": "csp_XYQHiker_Moefun",
             "name": "Moefun(XYQH)",
             "type": 3,
