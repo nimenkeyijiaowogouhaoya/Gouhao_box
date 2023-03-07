@@ -146,6 +146,16 @@
             "ext": "./XYQHiker/HG影视.json"
         },
         {
+            "key": "csp_XYQHiker_咕咕番",
+            "name": "咕咕番(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/咕咕番.json"
+        },
+        {
             "key": "csp_XYQHiker_Moefun",
             "name": "Moefun(XYQH)",
             "type": 3,
