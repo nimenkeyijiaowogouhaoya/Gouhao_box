@@ -77,9 +77,9 @@
     "play_header": "authority$ku.peizq.online#Referer$https://play.peizq.online",
     
     //演员数据，截取前缀&&截取后缀
-    "proj_actor": "h1&&Text",
+    "proj_actor": ".data:contains(别名：)&&Text",
     //简介内容，截取前缀&&截取后缀
-    "proj_plot": "",
+    "proj_plot": ".data:contains(简介：)&&Text",
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路截取数组前
