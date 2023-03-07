@@ -83,12 +83,12 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路截取数组前
-    "tab_arr_rule":".nav-tabs&&a",
+    "tab_arr_rule":"body&&.nav-tabs&&a",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "Text",
+    "tab_title": "a&&Text",
     
     //列表数组截取前，必须
-    "list_arr_rule": ".tab-content&&myui-content__list",
+    "list_arr_rule": "body&&.myui-content__list",
     //集数数组截取前，必须
     "epi_arr_rule": "ul&&li",
     //集数标题，截取前缀&&截取后缀
@@ -96,7 +96,7 @@
     //集数链接，截取前缀&&截取后缀
     "epi_url": "a&&href",
     //集数链接补前缀
-    "epiurl_prefix": "https://www.qdm66.com/",
+    "epiurl_prefix": "https://www.qdm66.com",
     //集数链接补后缀
     "epiurl_suffix": "",
     
