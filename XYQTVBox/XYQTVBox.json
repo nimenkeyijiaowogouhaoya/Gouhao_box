@@ -2659,7 +2659,7 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": "./alitoken.txt",
-            "jar":"./fm/custom_spider.jar"
+            "jar":"./Ts/custom_spider.jar"
         },
         {
             "key": "csp_LocalFile",
