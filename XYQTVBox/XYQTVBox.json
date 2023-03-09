@@ -1,20 +1,13 @@
 {
     "wallpaper": "https://www.dmoe.cc/random.php",
     "spider": "./custom_spider.jar",
-    "lives": [
-        {
-            "group": "自定义",
-            "channels": [
-                {
-                    "name": "live",
-                    "urls": [
-                        //"proxy://do=live&type=txt&ext=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-                        "proxy://do=live&type=txt&ext=https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/live.txt"
-                    ]
-                }
-            ]
-        }
-    ],
+    "lives": [{
+		    "name": "live",
+		    "type": 0,
+		    "url": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/live.txt",
+		    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		    "logo": "https://epg.112114.xyz/logo/{name}.png"
+	    }],
     "sites": [
 	  {
 	    "key":"drpy_js_Alist",
@@ -86,7 +79,7 @@
     {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
     {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
     {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "http://ali.饭太硬.ml/alitoken$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
     /*{"key":"Gitcafe","name":"纸条","type":"3","api":"csp_Paper","searchable":"1","quickSearch":"1","filterable":"1","ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt","jar": "./fm/custom_spider.jar"},
     {"key":"Upso","name":"云搜","type":"3","api":"csp_UpYun","searchable":"1","quickSearch":"1","filterable":"1","ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt","jar": "./fm/custom_spider.jar"},
     {"key":"Zhaozy","name":"资源","type":"3","api":"csp_Zhaozy","searchable":"1","quickSearch":"1","filterable":"1","ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt","jar": "./fm/custom_spider.jar"},
@@ -154,16 +147,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/咕咕番.json"
-        },
-        {
-            "key": "csp_XYQHiker_趣动漫",
-            "name": "趣动漫(XYQH)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/趣动漫.json"
         },
         {
             "key": "csp_XYQHiker_Moefun",
@@ -465,6 +448,13 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/NT动漫.js"
+        },
+        {
+            "key": "drpy_js_omofun动漫",
+            "name": "omofun动漫[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/omofun动漫.js"
         },
         {
             "key": "drpy_js_异世界动漫",
@@ -2162,6 +2152,27 @@
             "ext": "./dr_js/js/秋霞影视.js"
         },
         {
+            "key": "drpy_js_HG影院[V2]",
+            "name": "HG影院[V2][DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/HG影院[V2].js"
+        },
+        {
+            "key": "drpy_js_555影视[V2]",
+            "name": "影视|555影视[V2][DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/555影视[V2].js"
+        },
+        {
+            "key": "drpy_js_天空影视[V2]",
+            "name": "影视|天空影视[V2][DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/天空影视[V2].js"
+        },
+        {
             "key": "drpy_js_唐人街影视[飞]",
             "name": "唐人街影视[飞][DRPY]",
             "type": 3,
@@ -2319,6 +2330,13 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/小品网.js"
+        },
+        {
+            "key": "drpy_js_酷狗MV",
+            "name": "酷狗MV[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/酷狗MV.js"
         },
         {
             "key": "drpy_js_酷奇MV",
