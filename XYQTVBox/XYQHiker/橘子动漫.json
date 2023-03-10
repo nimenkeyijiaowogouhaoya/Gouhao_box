@@ -32,7 +32,7 @@
     //分类片单链接
     "cat_url": "a&&href",
     //分类片单图片
-    "cat_pic": "im&&data-src",
+    "cat_pic": "img&&data-src",
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
