@@ -51,7 +51,7 @@
     "search_mode": "0",
     
     //搜索json列表数组定位，不填默认内置list，最多支持3层，能力有限，不是所有页面都能支持。
-    "sea_arr_rule": "body&&.module-item",
+    "sea_arr_rule": "body&&.module-items",
     //搜索json片单图片
     "sea_pic": "img&&data-original",
     //搜索json片单标题
