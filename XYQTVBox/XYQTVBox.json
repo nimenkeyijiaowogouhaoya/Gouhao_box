@@ -168,6 +168,17 @@
             "filterable": 1,
             "ext": "./XYQHiker/趣动漫.json"
         },
+        ,
+		 {
+            "key": "csp_XYQHiker_可达鸭",
+            "name": "可达鸭(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/可达鸭.json"
+        },
         {
             "key": "csp_XYQHiker_麻花影视",
             "name": "麻花影视(XYQH)",
