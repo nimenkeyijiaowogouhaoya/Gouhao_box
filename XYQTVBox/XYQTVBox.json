@@ -139,6 +139,16 @@
             "ext": "./XYQHiker/HG影视.json"
         },
         {
+            "key": "csp_XYQHiker_看看剧",
+            "name": "看看剧(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/看看剧.json"
+        },
+        {
             "key": "csp_XYQHiker_咕咕番",
             "name": "咕咕番(XYQH)",
             "type": 3,
