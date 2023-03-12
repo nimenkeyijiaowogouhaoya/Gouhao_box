@@ -48,7 +48,7 @@
     "搜索截取模式": "1",
     "搜索列表数组规则": "body&&.stui-vodlist__box",
     "搜索片单是否Jsoup写法": "1",
-    "搜索片单图片": "'.lazyload&&data-original",
+    "搜索片单图片": ".lazyload&&data-original",
     "搜索片单标题": "h4&&Text",
     "搜索片单链接": "a&&href[替换:/vod/=>||/=>]",
     "搜索片单副标题": ".pic-text&&Text",
