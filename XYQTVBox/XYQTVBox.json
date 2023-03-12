@@ -146,8 +146,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/看看剧.json",
-            "jar":"./Ts/custom_spider.jar"
+            "ext": "./XYQHiker/看看剧.json"
+           
         },
         {
             "key": "csp_XYQHiker_咕咕番",
