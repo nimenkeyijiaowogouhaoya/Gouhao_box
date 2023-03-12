@@ -43,7 +43,7 @@
     "分类片单链接加前缀": "https://kankanju.cc/play/",
     "分类片单链接加后缀": "-1-1/",
     "搜索请求头参数": "User-Agent$手机",
-    "搜索链接": "",
+    "搜索链接": "https://kankanju.cc/vodsearch{wd}/page/{catePg}.html",
     "POST请求数据": "",
     "搜索截取模式": "1",
     "搜索列表数组规则": "body&&.stui-vodlist__box",
