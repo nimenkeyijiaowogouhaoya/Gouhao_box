@@ -157,7 +157,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/咕咕番.json"
+            "ext": "./XYQHiker/咕咕番.json",
+            "jar":"./Ts/custom_spider.jar"
         },
         {
             "key": "csp_XYQHiker_橘子动漫",
