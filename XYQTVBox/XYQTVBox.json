@@ -2219,13 +2219,6 @@
             "ext": "./dr_js/js/秋霞影视.js"
         },
         {
-            "key": "drpy_js_被窝电影",
-            "name": "被窝电影[DRPY]",
-            "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/被窝电影.js"
-        },
-        {
             "key": "drpy_js_豆巴影视",
             "name": "豆巴影视[DRPY]",
             "type": 3,
