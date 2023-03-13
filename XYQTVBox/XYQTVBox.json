@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://www.dmoe.cc/random.php",
-    "spider": "./Ts/custom_spider.jar",
+    "spider": "./custom_spider.jar",
     "lives": [{
 		    "name": "live",
 		    "type": 0,
