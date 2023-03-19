@@ -4,7 +4,7 @@ muban.mxpro.二级.desc = '.module-info-item-content:eq(3)&&Text;;;.module-info-
 var rule={     
     title:'布雷蓝光',
     模板:'mxpro',     
-    host:'https://www.bulei.cc',     
+    host:'https://v.bulei.cc',     
     // url:'/index.php/vod/show/by/time/id/fyclass/page/fypage.html',
     url:'/index.php/vod/type/id/fyclass.html',
     // url:'/index.php/vod/show/id/fyclassfyfilter.html',
