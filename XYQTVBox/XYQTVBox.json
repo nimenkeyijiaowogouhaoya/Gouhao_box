@@ -82,11 +82,11 @@
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/百忙无果.js"
         },
-    {      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "./alitoken.txt",  "jar": "./fm/custom_spider.jar"    },
-    {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
 {"key":"csp_YQKAPP","name":"一起看","type":3,"api":"csp_YQKAPP","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://api-tx.shumaxc.xyz","jar":"./XC/Yoursmile.jar"},
 {"key":"csp_Xinsj","name":"新视觉","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.6080dy3.com","jar":"./XC/Yoursmile.jar"},
 {"key":"小苹果","name":"苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./XC/Yoursmile.jar"},
@@ -545,6 +545,13 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/NyaFun.js"
+        },
+        {
+            "key": "drpy_js_二次萌影视",
+            "name": "二次萌影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/二次萌影视.js"
         },
         {
             "key": "drpy_js_异世界动漫",
@@ -2263,6 +2270,76 @@
             "ext": "./dr_js/js/影视之家.js"
         },
         {
+            "key": "drpy_js_网飞.TV",
+            "name": "网飞.TV[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/网飞.TV.js"
+        },
+        {
+            "key": "drpy_js_星空影视",
+            "name": "星空影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/星空影视.js"
+        },
+        {
+            "key": "drpy_js_人人",
+            "name": "人人[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/人人.js"
+        },
+        {
+            "key": "drpy_js_139影视",
+            "name": "139影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/139影视.js"
+        },
+        {
+            "key": "drpy_js_FreeOK",
+            "name": "FreeOK[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/FreeOK.js"
+        },
+        {
+            "key": "drpy_js_朴樱影视",
+            "name": "朴樱影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/朴樱影视.js"
+        },
+        {
+            "key": "drpy_js_UM电影",
+            "name": "UM电影[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/UM电影.js"
+        },
+        {
+            "key": "drpy_js_米爱影视",
+            "name": "米爱影视[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/米爱影视.js"
+        },
+        {
+            "key": "drpy_js_花猫TV",
+            "name": "花猫TV[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/花猫TV.js"
+        },
+        {
+            "key": "drpy_js_达达龟",
+            "name": "达达龟[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/达达龟.js"
+        },
+        {
             "key": "drpy_js_HG影院[V2]",
             "name": "HG影院[V2][DRPY]",
             "type": 3,
@@ -2339,6 +2416,30 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/DJ音乐.js",
+            "playerType": "2"
+        },
+        {
+            "key": "drpy_js_苹果DJ",
+            "name": "苹果DJ[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/苹果DJ.js",
+            "playerType": "2"
+        },
+        {
+            "key": "drpy_js_清风DJ",
+            "name": "清风DJ[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/清风DJ.js",
+            "playerType": "2"
+        },
+        {
+            "key": "drpy_js_JangoIndex",
+            "name": "JangoIndex[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/JangoIndex.js",
             "playerType": "2"
         },
         {
