@@ -2340,6 +2340,13 @@
             "ext": "./dr_js/js/达达龟.js"
         },
         {
+            "key": "drpy_js_345看片",
+            "name": "345看片[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/345看片.js"
+        },
+        {
             "key": "drpy_js_HG影院[V2]",
             "name": "HG影院[V2][DRPY]",
             "type": 3,
@@ -2535,6 +2542,14 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/74听书.js",
+            "playerType": "2"
+        },
+        {
+            "key": "drpy_js_有声听书网",
+            "name": "有声听书网[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/有声听书网.js",
             "playerType": "2"
         },
         {
@@ -2957,7 +2972,7 @@
         {
             "name": "3-小城",
             "type": 0,
-            "url": "https://bf.xcds1.com/player/analysis.php?v=",
+            "url": "https://bf.xcds1.com/?url=",
             "ext": {
                 "flag": [
                     "qq",
