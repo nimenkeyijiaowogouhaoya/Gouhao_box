@@ -88,12 +88,12 @@
     //{      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt",  "jar": "./fm/custom_spider.jar"    },    
 
 
-{"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0},
-        {"key":"csp_Yisou","name":"📀易搜","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0},
-        {"key":"csp_Upyunso","name":"📀UP云搜","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"./alitoken.txt"},
+{"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
+        {"key":"csp_Yisou","name":"📀易搜","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
+        {"key":"csp_Upyunso","name":"📀UP云搜","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"./alitoken.txt"},
 
-    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "$$$yingshi$$$abcd1234",  "jar": "./custom_spider.jar"    },
+    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "./alitoken.txt$$$yingshi$$$abcd1234",  "jar": "./custom_spider.jar"    },
 {"key":"csp_YQKAPP","name":"一起看","type":3,"api":"csp_YQKAPP","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://api-tx.11ty.top","jar":"./XC/Yoursmile.jar"},
 {"key":"csp_Xinsj","name":"新视觉","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.6080dy3.com","jar":"./XC/Yoursmile.jar"},
 {"key":"小苹果","name":"苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./XC/Yoursmile.jar"},
