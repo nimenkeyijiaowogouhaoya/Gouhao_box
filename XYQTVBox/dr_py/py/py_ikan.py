@@ -7,7 +7,6 @@ import base64
 import math
 import json
 import requests
-import urllib
 
 class Spider(Spider):
 	def getName(self):
@@ -45,24 +44,26 @@ class Spider(Spider):
 
 	def categoryContent(self,tid,pg,filter,extend):
 		result = {}
-		url = 'https://ikan6.vip/vodtype/{0}-{1}/'.format(tid,pg)
-		rsp = self.fetch(url)
+		header = {
+			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"}
+		url = 'https://ikanys.tv/vodshow/{}--------{}---/'.format(tid,pg)
+		session= self.verifyCode('show')
+		rsp = session.get(url, headers=header)
 		html = self.html(rsp.text)
-		aList = html.xpath("//ul[contains(@class, 'myui-vodlist')]/li")
+		aList = html.xpath("//div[@class='module']/a")
 		videos = []
 		numvL = len(aList)
 		pgc = math.ceil(numvL/15)
 		for a in aList:
-			aid = a.xpath("./div[contains(@class, 'myui-vodlist__box')]/a/@href")[0]
+			aid = a.xpath("./@href")[0]
 			aid = self.regStr(reg=r'/voddetail/(.*?)/', src=aid)
-			img = a.xpath(".//div[contains(@class, 'myui-vodlist__box')]/a/@data-original")[0]
-			name = a.xpath(".//div[contains(@class, 'myui-vodlist__box')]/a/@title")[0]
-			remark = a.xpath(".//span[contains(@class, 'pic-text text-right')]/text()")[0]
+			img = a.xpath(".//div[@class='module-item-pic']/img/@data-original")[0]
+			name = a.xpath("./@title")[0]
 			videos.append({
 				"vod_id": aid,
 				"vod_name": name,
 				"vod_pic": img,
-				"vod_remarks": remark
+				"vod_remarks": ''
 			})
 		result['list'] = videos
 		result['page'] = pg
@@ -73,50 +74,39 @@ class Spider(Spider):
 
 	def detailContent(self,array):
 		aid = array[0]
-		url = 'https://ikan6.vip/voddetail/{0}/'.format(aid)
+		url = 'https://ikanys.tv/voddetail/{0}/'.format(aid)
 		rsp = self.fetch(url)
 		html = self.html(rsp.text)
-		node = html.xpath("//div[@class='myui-content__detail']")[0]
-		title = node.xpath("./h1/text()")[0]
-		pic = html.xpath("//a[@class='myui-vodlist__thumb picture']/img/@src")[0]
-		cont = html.xpath("//div[@class='col-pd text-collapse content']/span[@class='data']/p/text()")[0].replace('\u3000','')
-		infoList = node.xpath("./p[@class='data']")
-		for info in infoList:
-			content = info.xpath('string(.)').replace('\t','').replace('\r','').replace('\n','').strip()
-			if content.startswith('导演：'):
-				dir = content.replace('导演：','').strip()
-			if content.startswith('主演：'):
-				act = content.replace('主演：','').replace('\xa0','/').strip()
-			if content.startswith('分类：'):
-				infos = content.split('：')
-				for i in range(0, len(infos)):
-					if infos[i] == '分类':
-						typeName = infos[i + 1][:-2]
-					if infos[i][-2:] == '地区':
-						area = infos[i + 1][:-2]
-					if infos[i][-2:] == '年份':
-						year = infos[i + 1]
+		node = html.xpath("//div[@class='module-main']")[0]
+		title = node.xpath(".//div[@class='module-info-heading']/h1/text()")[0]
+		pic = html.xpath("//div[@class='module-item-pic']/img/@data-original")[0]
 		vod = {
 			"vod_id": aid,
 			"vod_name": title,
 			"vod_pic": pic,
-			"type_name": typeName,
-			"vod_year": year,
-			"vod_area": area,
+			"type_name": '',
+			"vod_year": '',
+			"vod_area": '',
 			"vod_remarks": '',
-			"vod_actor": act,
-			"vod_director": dir,
-			"vod_content": cont
+			"vod_actor": '',
+			"vod_director": '',
+			"vod_content": ''
 		}
-		urlList = html.xpath("//div[@class='tab-content myui-panel_bd']/div/ul/li")
+		playFrom = ''
+		playfromList = html.xpath("//div[@class='module-tab-items-box hisSwiper']/div")
+		for pL in playfromList:
+			pL = pL.xpath("./@data-dropdown-value")[0].strip()
+			playFrom = playFrom + '$$$' + pL
+		urlList = html.xpath("//div[contains(@class,'module-list sort-list tab-list his-tab-list')]")
 		playUrl = ''
-		for url in urlList:
-			purl = url.xpath("./a/@href")[0]
-			purl = self.regStr(reg=r'/vodplay/(.*?)/', src=purl)
-			name = url.xpath("./a/text()")[0]
-			playUrl = playUrl + '{0}${1}#'.format(name, purl)
-		vod['vod_play_from'] = '爱看影视'
-		vod['vod_play_url'] = playUrl
+		for uL in urlList:
+			for playurl in uL.xpath(".//a"):
+				purl = self.regStr(reg=r'/vodplay/(.*?)/', src=playurl.xpath("./@href")[0])
+				name = playurl.xpath("./@title")[0]
+				playUrl = playUrl + '{}${}#'.format(name, purl)
+			playUrl = playUrl + '$$$'
+		vod['vod_play_from'] = playFrom.strip('$$$')
+		vod['vod_play_url'] = playUrl.strip('$$$')
 
 		result = {
 			'list': [
@@ -125,17 +115,18 @@ class Spider(Spider):
 		}
 		return result
 
-	def verifyCode(self):
+	def verifyCode(self,tag):
 		retry = 10
 		header = {
-			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"}
+			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+		}
 		while retry:
 			try:
 				session = requests.session()
-				img = session.get('https://ikan6.vip/index.php/verify/index.html?', headers=header).content
+				img = session.get('https://ikanys.tv/index.php/verify/index.html?', headers=header).content
 				code = session.post('https://api.nn.ci/ocr/b64/text', data=base64.b64encode(img).decode()).text
-				res = session.post(url=f"https://ikan6.vip/index.php/ajax/verify_check?type=search&verify={code}",
-								   headers=header).json()
+				'https://ikanys.tv/index.php/ajax/verify_check?type=show&verify=0072'
+				res = session.post(url=f"https://ikanys.tv/index.php/ajax/verify_check?type={tag}&verify={code}", headers=header).json()
 				if res["msg"] == "ok":
 					return session
 			except Exception as e:
@@ -145,17 +136,19 @@ class Spider(Spider):
 
 	def searchContent(self,key,quick):
 		result = {}
-		url = 'https://ikan6.vip/vodsearch/-------------/?wd={0}&submit='.format(key)
-		session = self.verifyCode()
-		rsp = session.get(url)
+		header = {
+			"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+		}
+		url = 'https://ikanys.tv/vodsearch/-------------/?wd={0}'.format(key)
+		session = self.verifyCode('search')
+		rsp = session.get(url, headers=header)
 		root = self.html(rsp.text)
-		vodList = root.xpath("//ul[@class='myui-vodlist__media clearfix']/li")
+		vodList = root.xpath("//div[@class='module-items module-card-items']/div")
 		videos = []
 		for vod in vodList:
-			name = vod.xpath("./div/h4/a/text()")[0]
-			pic = vod.xpath("./div[@class='thumb']/a/@data-original")[0]
-			mark = vod.xpath("./div[@class='thumb']/a/span[@class='pic-text text-right']/text()")[0]
-			sid = vod.xpath("./div[@class='thumb']/a/@href")[0]
+			name = vod.xpath("./a/div/div/img/@alt")[0]
+			pic = vod.xpath("./a/div/div/img/@data-original")[0]
+			sid = vod.xpath("./a/@href")[0]
 			sid = self.regStr(sid,"/voddetail/(\\S+)/")
 			videos.append({
 				"vod_id":sid,
@@ -170,28 +163,21 @@ class Spider(Spider):
 		return result
 
 	def playerContent(self,flag,id,vipFlags):
-		result = {}
 		header = {
 			"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
-			"Referer": "https://ikan6.vip/"
+			"Referer": "https://ikanys.tv/"
 		}
-		url = 'https://ikan6.vip/vodplay/{0}/'.format(id)
-		rsp = self.fetch(url)
-		cookie = rsp.cookies
-		info = json.loads(self.regStr(reg=r'var player_data=(.*?)</script>', src=rsp.text))
-		string = info['url'][8:len(info['url'])]
-		substr = base64.b64decode(string).decode('UTF-8')
-		str = substr[8:len(substr) - 8]
-		if 'Ali' in info['from']:
-			url = 'https://cms.ikan6.vip/ali/nidasicaibudaowozaina/nicaibudaowozaina.php?url={0}'.format(str)
+		result = {}
+		url = 'https://ikanys.tv/vodplay/{0}/'.format(id)
+		rsp = self.fetch(url, headers=header)
+		info = json.loads(self.regStr(reg=r'var player_aaaa=(.*?)</script>', src=self.cleanText(rsp.text)))
+		parse = 0
+		if info['url'].startswith('http'):
+			purl = info['url']
 		else:
-			url = 'https://cms.ikan6.vip/nidasicaibudaowozaina/nicaibudaowozaina.php?url={0}'.format(str)
-		rsp = self.fetch(url, headers=header, cookies=cookie)
-		randomurl = self.regStr(reg=r"getrandom\(\'(.*?)\'", src=rsp.text)
-		pstring = randomurl[8:len(randomurl)]
-		psubstr = base64.b64decode(pstring).decode('UTF-8')
-		purl = urllib.parse.unquote(psubstr[8:len(psubstr) - 8])
-		result["parse"] = 0
+			parse = 1
+			purl = url
+		result["parse"] = parse
 		result["playUrl"] = ''
 		result["url"] = purl
 		result["header"] = ''
