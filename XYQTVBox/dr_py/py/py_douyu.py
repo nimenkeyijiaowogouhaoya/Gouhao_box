@@ -103,10 +103,11 @@ class Spider(Spider):
 		rsp = self.fetch(url)
 		jRoot = json.loads(rsp.text)
 		if len(jRoot['data']) == 0:
-			return {}
-		jo = jRoot['data']
-		ja = jo['OD']
-		url = ja
+			url = ''
+		else:
+			jo = jRoot['data']
+			ja = jo['OD']
+			url = ja
 		result["parse"] = 0
 		result["playUrl"] = ''
 		result["url"] = url
