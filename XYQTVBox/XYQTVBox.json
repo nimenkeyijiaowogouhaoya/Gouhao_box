@@ -296,17 +296,6 @@
             "jar": "./Tangs/tang.jar"
         },
         {
-            "key": "push_agent",
-            "name": "PushAgent",
-            "type": "3",
-            "api": "csp_Push",
-            "searchable": "1",
-            "quickSearch": "1",
-            "filterable": "1",
-            "ext": "./Tangs/token.txt",
-            "jar": "./Tangs/tang.jar"
-        },
-        {
             "key": "章鱼影视",
             "name": "章鱼影视(V1)",
             "type": 3,
