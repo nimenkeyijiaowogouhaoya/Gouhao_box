@@ -36,7 +36,7 @@ var rule = {
     searchable: 2,
     quickSearch: 0,
     headers: {
-        'User-Agent': 'MOBILE'
+        'User-Agent': 'MOBILE_UA'
     },
     timeout: 5000,
     play_parse: true,
