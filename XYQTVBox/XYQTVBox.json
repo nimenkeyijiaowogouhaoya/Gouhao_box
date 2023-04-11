@@ -82,11 +82,11 @@
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/百忙无果.js"
         },
-    {      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "clan://token.txt",  "jar": "./fm/custom_spider.jar"    },
-    {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://token.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://token.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://token.txt",  "jar": "./fm/custom_spider.jar"    },    
-    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://token.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "clan://XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
+    {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "clan://XYQTVBox/token.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
         {
             "key": "世界杯",
             "name": "一起看",
