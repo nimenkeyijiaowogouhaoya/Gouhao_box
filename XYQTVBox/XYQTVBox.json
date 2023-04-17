@@ -93,17 +93,18 @@
       "ext": "./fm/webdav.json",
       "jar": "./fm/dav.jar"
     },
-    /*{      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },
+    {      "key": "紙條",      "name": "紙條",      "type": 3,      "api": "csp_Paper",      "searchable": 1,      "filterable": 1,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },
     {      "key": "易搜",      "name": "易搜",      "type": 3,      "api": "csp_YiSo",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
     {      "key": "盤搜",      "name": "盤搜",      "type": 3,      "api": "csp_PanSou",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
     {      "key": "UP雲搜",      "name": "UP雲搜",      "type": 3,      "api": "csp_UpYun",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar"    },    
     {      "key": "找資源",      "name": "找資源",      "type": 3,      "api": "csp_Zhaozy",      "searchable": 1,      "filterable": 0,      "changeable": 0,      "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt$$$yingshi$$$abcd1234",  "jar": "./fm/custom_spider.jar"    },
-*/
-      {"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt" ,  "jar": "./fm/custom_spider.jar"  },
+
+      /*{"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt" ,  "jar": "./fm/custom_spider.jar"  },
         {"key":"csp_Zhaozy","name":"📀找资源","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar" },
         {"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt, “ ",  "jar": "./fm/custom_spider.jar" },
         {"key":"csp_Yisou","name":"📀易搜","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar" },
         {"key":"csp_Upyunso","name":"📀UP云搜","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt",  "jar": "./fm/custom_spider.jar" },
+        */
         {
             "key": "世界杯",
             "name": "一起看",
