@@ -361,6 +361,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/电影盒子.json"
+        }
+        ,{
+            "key": "csp_XYQHiker_港剧云播",
+            "name": "港剧云播(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/港剧云播.json"
         },
         {
             "key": "csp_XYQHiker_66影视",
