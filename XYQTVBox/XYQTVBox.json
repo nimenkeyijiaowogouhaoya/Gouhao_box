@@ -381,6 +381,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/66影视.json"
+        },{
+            "key": "csp_XYQHiker_Moefun",
+            "name": "Moefun(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/Moefun.json"
         },
         {
             "key": "csp_XYQHiker_不可视境界线",
@@ -463,14 +472,14 @@
             "ext": "./XYQHiker/趣动漫.json"
         },
         {
-            "key": "csp_XYQHiker_Moefun",
-            "name": "Moefun(XYQH)",
+            "key": "csp_XYQHiker_Mutefun",
+            "name": "Mutefun(XYQH)",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/Moefun.json"
+            "ext": "./XYQHiker/Mutefun.json"
         },
         {
             "key": "csp_XYQHiker_热播之家",
