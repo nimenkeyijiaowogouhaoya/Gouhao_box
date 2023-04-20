@@ -410,6 +410,15 @@
             "filterable": 1,
             "ext": "./XYQHiker/嗷呜番.json"
         },{
+            "key": "csp_XYQHiker_风车动漫",
+            "name": "风车动漫(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/风车动漫.json"
+        },{
             "key": "csp_XYQHiker_不可视境界线",
             "name": "不可视境界线(XYQH)",
             "type": 3,
