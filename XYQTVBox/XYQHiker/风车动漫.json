@@ -64,7 +64,7 @@
     "地区详情": ".myui-content__detail&&a,2&&Text",
     "演员详情": "",
     "简介详情": ".col-pd,0&&.data&&Text",                                                                                                               
-    "线路列表数组规则": ".nav-tabs&&a",
+    "线路列表数组规则": ".nav-tabs,0&&a",
     "线路标题": "Text",
     "播放列表数组规则": ".tab-content&&ul",
     "选集列表数组规则": "li",
