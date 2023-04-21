@@ -342,6 +342,18 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://36.170.49.206:1818/api.php/app/"
+        },{
+            "key": "drpy_js_次元城动漫",
+            "name": "次元城动漫[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/次元城动漫.js"
+        },{
+            "key": "drpy_js_宝片视频",
+            "name": "宝片[DRPY]",
+            "type": 3,
+            "api": "./dr_js/lib/drpy2.min.js",
+            "ext": "./dr_js/js/宝片视频.js"
         },
           {
             "key": "csp_XYQHiker_看看剧",
