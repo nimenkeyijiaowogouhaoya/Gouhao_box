@@ -408,7 +408,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/次元动漫.json"
+            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E6%AC%A1%E5%85%83%E5%8A%A8%E6%BC%AB.json"
         },{
             "key": "csp_XYQHiker_Moefun",
             "name": "Moefun(XYQH)",
