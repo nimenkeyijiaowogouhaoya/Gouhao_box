@@ -3,6 +3,7 @@
     "spider": "./custom_spider.jar",
     "lives": [{
 		    "name": "live",
+            "playerType":"1",
 		    "type": 0,
 		    "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
 		    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
@@ -354,6 +355,15 @@
             "type": 3,
             "api": "./dr_js/lib/drpy2.min.js",
             "ext": "./dr_js/js/宝片视频.js"
+        },{
+            "key": "csp_XYQHiker_端木影视",
+            "name": "端木影视(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/端木影视.json"
         },
           {
             "key": "csp_XYQHiker_看看剧",
@@ -412,6 +422,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/AcgNya.json"
+        },{
+            "key": "csp_XYQHiker_番剧",
+            "name": "番剧(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/番剧.json"
         },{
             "key": "csp_XYQHiker_次元动漫",
             "name": "次元动漫(XYQH)",
