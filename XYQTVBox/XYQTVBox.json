@@ -373,6 +373,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/异世琳琅.json"
+        },{
+            "key": "csp_XYQHiker_一龙影视",
+            "name": "一龙影视(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/一龙影视.json"
         },
           {
             "key": "csp_XYQHiker_看看剧",
