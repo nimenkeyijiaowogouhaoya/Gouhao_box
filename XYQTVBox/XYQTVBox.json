@@ -156,7 +156,8 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "filterable": 0,
-      "changeable": 0
+      "changeable": 0,
+      "jar": "./fm/dav.jar"
     },
 
       /*{"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt" ,  "jar": "./fm/custom_spider.jar"  },
