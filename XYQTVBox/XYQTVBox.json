@@ -158,7 +158,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt",
-      "jar": "./fm/dav.jar"
+      "jar": "./fm/custom_spider.jar"
     },
 
       /*{"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/token.txt" ,  "jar": "./fm/custom_spider.jar"  },
@@ -482,6 +482,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/港剧云播.json"
+        },{
+            "key": "csp_XYQHiker_柒之社",
+            "name": "柒子社(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E6%9F%92%E4%B9%8B%E7%A4%BE.json"
         },
         {
             "key": "csp_XYQHiker_66影视",
