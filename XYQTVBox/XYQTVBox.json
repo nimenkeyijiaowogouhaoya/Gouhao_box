@@ -146,7 +146,7 @@
     "searchable": 1,
     "filterable": 0,
     "changeable": 0,
-    "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt$$$yingshi$$$abcd1234",
+    "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt$$$test2$$$test2",
     "jar": "./fm/custom_spider.jar"
     },
     {
