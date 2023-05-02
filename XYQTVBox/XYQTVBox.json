@@ -426,6 +426,16 @@
             "filterable": 1,
             "ext": "./XYQHiker/端木影视.json"
         }, {
+            "key": "csp_XYQHiker_影咖",
+            "name": "影咖(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/影咖.json"
+        },
+        {
             "key": "csp_XYQHiker_异世琳琅",
             "name": "异世琳琅(XYQH)",
             "type": 3,
