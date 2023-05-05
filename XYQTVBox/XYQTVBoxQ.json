@@ -3212,7 +3212,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/token.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
         {
             "key": "csp_LocalFile",
