@@ -1,0 +1,3 @@
+XYQTVBox .json为精简后的仅包含少量的道长js源，XYQTVBoxQ .json为全量的包含很多道长js源
+xyqhiker有包含少量香佬自写源剩余均为本人以及朋友所写。
+感谢道长蜂蜜香佬唐长老提供的jar以及接口。
