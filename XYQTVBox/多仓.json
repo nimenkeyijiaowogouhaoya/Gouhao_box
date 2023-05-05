@@ -2,7 +2,11 @@
   "urls": [
     {
       "url": "https://jihulab.com/gouhao/Tvbox_zy/-/raw/master/XYQTVBox/XYQTVBox.json",
-      "name": "狗浩在线"
+      "name": "狗浩在线(精简)"
+    }, 
+    {
+      "url": "https://jihulab.com/gouhao/Tvbox_zy/-/raw/master/XYQTVBox/XYQTVBoxQ.json",
+      "name": "狗浩在线(全)"
     },
     {
       "url": "https://yydsys.top/duo/x.json",
