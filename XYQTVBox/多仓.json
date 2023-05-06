@@ -2,15 +2,11 @@
   "urls": [
     {
       "url": "https://jihulab.com/gouhao/Tvbox_zy/-/raw/master/XYQTVBox/XYQTVBox.json",
-      "name": "狗浩在线(精简)"
-    }, 
-    {
-      "url": "https://jihulab.com/gouhao/Tvbox_zy/-/raw/master/XYQTVBox/XYQTVBoxQ.json",
-      "name": "狗浩在线(全)"
+      "name": "狗浩简"
     },
     {
-      "url": "https://yydsys.top/duo/x.json",
-      "name": "阿里专线"
+      "url": "https://jihulab.com/gouhao/Tvbox_zy/-/raw/master/XYQTVBox/XYQTVBoxQ.json",
+      "name": "狗浩全"
     },
     {
       "url": "http://drpy.site/slim",
@@ -69,6 +65,45 @@
       "name": "蜜蜂"
     },
     {
+        "url": "http://rihou.cc:88/荷城茶秀",
+      //"url": "https://ghproxy.com/https://raw.githubusercontent.com/XiaoYiChaHang/tvbox/main/ysj.json",
+      //"url": "https://raw.iqiq.io/XiaoYiChaHang/tvbox/main/ysj.json",
+      
+      "name": "荷城茶秀"
+    },
+    {
+      "url": "http://www.tvboxx.com.cn/tvbox/tv.json",
+      //"url": "http://tvbox.top/tvbox/tv.json",
+      "name": "风吹屁屁凉"
+    },
+    {
+      //"url": "https://boylan.eu.org/s1.json",
+      "url": "https://lantongxue.cc/s.json",
+      //"url": "https://4kal.netlify.app/s.json",
+      "name": "Lan同学"
+    },
+    {
+      "url": "https://f.cyao.tk/n.json",
+      "name": "cyao"
+    },
+    {
+      "url": "http://app.realku.cn:1080/TVBox408/XYQTVBox/XYQTVBox.json",
+      "name": "酷影"
+    },
+    {
+      "url":"https://download.kstore.space/download/3764/1.txt",
+      "name":"恋影线路"
+    },
+    {
+      "url":"https://max.lianyingtv.com/uploads/itvbox/api.json",
+      "name":"新恋影线路"
+    },
+    {
+      //"url": "https://ghproxy.com/https://raw.githubusercontent.com/52670576/tvbox/main/ysc.json",
+      "url": "https://weixine.net/ysc.json",
+      "name": "运输车"
+    },
+    {
       "url": "https://codeberg.org/leevi/duo/raw/branch/main/v.json",
       "name": "多多1"
     },
@@ -101,14 +136,6 @@
       "name": "甜蜜"
     },
     {
-      "url": "https://tvbox.missyao.ml",
-      "name": "missyao"
-    },
-    {
-      "url": "https://raw.iqiq.io/vpei/Free-TVUrl-Merge/main/out/tvbox.txt",
-      "name": "Free"
-    },
-    {
       "url": "http://caiccxx.tk/ts.json",
       "name": "caiccxx"
     },
@@ -133,10 +160,6 @@
       "name": "哔哩"
     },
     {
-      "url": "https://suoa.cc/PMeJG",
-      "name": "多jar"
-    },
-    {
       "url": "https://好骚.ml/好骚",
       "name": "好骚"
     },
@@ -149,20 +172,8 @@
       "name": "肥猫"
     },
     {
-      "url": "https://ghproxy.com/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVBox/%E4%B8%80%E6%9C%A8%E8%87%AA%E7%94%A8.json",
-      "name": "缝合源"
-    },
-    {
-      "url": "http://101.34.67.237/zhao/JS/js.json",
-      "name": "赵霸道"
-    },
-    {
       "url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json",
       "name": "adcc"
-    },
-    {
-      "url": "http://pandown.pro/tvbox/tvbox.json",
-      "name": "巧技密码9999"
     },
     {
       "url": "https://raw.iqiq.io/liu673cn/box/main/m.json",
@@ -247,10 +258,6 @@
     {
       "url": "http://lengniuge.ga/tv/yingshi",
       "name": "楞牛哥"
-    },
-    {
-      "url": "http://shagua888168.3vdo.club",
-      "name": "蓝魔"
     },
     {
       "url": "https://d.kstore.space/download/2863/01.txt",
