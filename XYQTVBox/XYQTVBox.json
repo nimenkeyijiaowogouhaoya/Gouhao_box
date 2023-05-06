@@ -298,6 +298,16 @@
             "filterable": 1,
             "ext": "./XYQHiker/影咖.json"
         },{
+            "key": "csp_XYQHiker_片库网",
+            "name": "片库网(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/片库网.json"
+        },
+        {
             "key": "csp_XYQHiker_端木影视",
             "name": "端木影视(XYQH)",
             "type": 3,
