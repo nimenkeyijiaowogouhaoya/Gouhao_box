@@ -411,6 +411,15 @@
             "filterable": 1,
             "ext": "./XYQHiker/番剧.json"
         },{
+            "key": "csp_XYQHiker_elfun",
+            "name": "elfun(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/elfun.json"
+        },{
             "key": "csp_XYQHiker_次元动漫",
             "name": "次元动漫(XYQH)",
             "type": 3,
