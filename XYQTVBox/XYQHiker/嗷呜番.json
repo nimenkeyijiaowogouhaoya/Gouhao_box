@@ -49,7 +49,7 @@
     "搜索列表数组规则": "body&&.module-item",
     "搜索片单是否Jsoup写法": "1",
     "搜索片单图片": "img&&data-original",
-    "搜索片单标题": ".module-item-note&&Text",
+    "搜索片单标题": "strong&&Text",
     "搜索片单链接": "a&&href",
     "搜索片单副标题": ".module-item-note&&Text",
     "搜索片单链接加前缀": "https://www.aowu.tv",
