@@ -328,6 +328,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/囧次元.json"
+        },{
+            "key": "csp_XYQHiker_yoifun",
+            "name": "yoifun(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/yoifun.json"
         },
         {
             "key": "csp_XYQHiker_端木影视",
