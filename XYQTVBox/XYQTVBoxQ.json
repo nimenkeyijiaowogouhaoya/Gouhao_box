@@ -790,7 +790,9 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"m3u8ads":"hd.youyhn.com",
+			"playUrl": "json:https://www.itvbox.cc/fflz.php?url=",
 			"playerType":2
+			
 		},
 		{
 			"key": "非凡",
@@ -800,6 +802,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"m3u8ads":"hd.youyhn.com",
+			"playUrl": "json:https://www.itvbox.cc/fflz.php?url=",
 			"playerType":2
 		},
 		{
