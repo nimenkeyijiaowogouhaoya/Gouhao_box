@@ -1075,6 +1075,18 @@
             }
         },
         {
+            "name": "采集1",
+            "type": 1,
+            "url": "http://jxapi.wutao7.top/XL/?url=",
+            "ext": {"flag": [ "qq", "腾讯", "qiyi", "爱奇艺", "奇艺","youku","优酷","mgtv", "芒果","letv", "乐视", "pptv", "PPTV","sohu","bilibili", "哔哩哔哩", "哔哩" ]}
+        },
+        {
+            "name": "采集2",
+            "type": 0,
+            "url": "http://jxapi.wutao7.top/miui/?url=",
+            "ext": {"flag": [ "qq", "腾讯", "qiyi", "爱奇艺", "奇艺","youku","优酷","mgtv", "芒果","letv", "乐视", "pptv", "PPTV","sohu","bilibili", "哔哩哔哩", "哔哩" ]}
+        },
+        {
             "name": "5-8090",
             "type": 0,
             "url": "https://www.8090.la/8090/?url="
