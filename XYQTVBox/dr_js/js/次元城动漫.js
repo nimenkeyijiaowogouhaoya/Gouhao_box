@@ -4,7 +4,7 @@ var rule = {
     class_name:'TV动画&剧场版&4K专区',
     class_url:'20&21&26',
     homeUrl: '',
-    searchUrl: '/index.php/ajax/suggest?mid=1&wd=**',
+    searchUrl: '/search.html?wd=**',
     searchable: 2,
     quickSearch: 0,
     headers:{'User-Agent':'MOBILE_UA'},
@@ -31,5 +31,5 @@ var rule = {
 		"tab_text":".swiper-slide--i&&Text",
 		"lists":".anthology-list-box:eq(#id) li"
 	},
-    搜索:'json:list;name;pic;;id',
+    搜索:'body&&.search-box;.thumb-txt&&Text;.lazy&&data-original;.ft2&&Text;a&&href',
 }
