@@ -171,6 +171,7 @@
         {"key": "csp_XYQHiker_DOVX搜索","name":"📀DOVX搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"},
         {"key": "csp_XYQBiu_云盘分享","name":"📀云盘分享(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/云盘分享.json"},
         {"key": "csp_XYQHiker_盘搜索","name":"📀盘搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/盘搜索.json"},
+        {"key": "csp_XYQHiker_玩偶哥哥","name": "玩偶哥哥(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/玩偶哥哥.json"},
 {"key":"csp_Kunyu77","name":"SP|七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"SP|苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1},
 {"key":"快看","name":"SP|快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
