@@ -1,0 +1,22 @@
+{
+ "搜索片单是否Jsoup写法": "1",
+    "搜索请求头参数": "User-Agent$手机",
+    "搜索链接": "https://yunpan1.com/?q={wd}",
+    "POST请求数据": "",
+    "搜索截取模式": "1",
+    "搜索列表数组规则": "#flarum-content&&li",
+    "搜索片单图片": "https://cdn1.iconfinder.com/data/icons/easter-curvy/100/Rabbit-128.png",
+    "搜索片单标题": "a&&Text",
+    "搜索片单链接": "a&&href",
+    "搜索片单副标题": "",
+    "搜索片单链接加前缀": "",
+    "搜索片单链接加后缀": "",    
+    
+    "选集标题链接是否Jsoup写法": "1",
+    "线路列表数组规则": "",
+    "线路标题": "Text",
+    "播放列表数组规则": "body&&#flarum-content",
+    "选集列表数组规则": "a&&[href*=aliyun]",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href"
+}
