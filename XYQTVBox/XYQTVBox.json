@@ -511,7 +511,18 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E9%A3%8E%E8%BD%A6%E5%8A%A8%E6%BC%AB.json"
-        },{
+        },
+        {
+            "key": "csp_XYQHiker_风车动漫1",
+            "name": "风车动漫1💧(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E9%A3%8E%E8%BD%A6%E5%8A%A8%E6%BC%AB1.json"
+        },
+        {
             "key": "csp_XYQHiker_不可视境界线",
             "name": "不可视境界线(XYQH)",
             "type": 3,
