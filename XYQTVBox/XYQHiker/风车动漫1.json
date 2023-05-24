@@ -62,7 +62,7 @@
     "类型详情": ".tag-link,1&&Text",
     "年代详情": ".tag-link,2&&Text",
     "地区详情": ".tag-link,3&&Text",
-    "演员详情": ".video-info-item,1&&Text",
+    "演员详情": "",
     "简介详情": ".vod_content&&Text!收起",    
     "线路列表数组规则": ".module-tab-content&&span",
     "线路标题": "Text",
