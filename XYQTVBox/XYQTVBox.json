@@ -284,14 +284,24 @@
         {"key":"相声小品","name":"SP|哔哩相声","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Blixs.json"},
         {"key": "戏 曲" ,"name": "SP|哔哩戏曲","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Blixq.json"},
         {
-         "key": "csp_appys_酷影TV",
-         "name": "酷影蓝光",
+         "key": "csp_appys_多米",
+         "name": "多米",
          "type": 3,
          "api": "csp_AppYsV2",
          "searchable": 1,
          "quickSearch": 1,
          "filterable": 1,
-         "ext": "http://kuying.kuyouk.top:9528/api.php/app/"
+         "ext": "http://v.dmdh.top/api.php/app/"
+        },
+        {
+         "key": "csp_appys_freeok",
+         "name": "freeok",
+         "type": 3,
+         "api": "csp_AppYsV2",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "https://www.freeok.vip/api.php/app"
         },
         {
             "key": "drpy_js_次元城动漫",
