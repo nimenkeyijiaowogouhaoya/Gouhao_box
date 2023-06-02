@@ -17,13 +17,25 @@
 			"api": "./lives/直播转点播.js",
 			"ext": "./lives/直播仓库.json"
 	 },
-	  {
+	  /*{
 	    "key":"drpy_js_Alist",
 	    "name":"DR| Alist[js]",
 	    "type":3,
 	    "api":"./dr_js/lib/alist.min.js",
 	    "ext":"./dr_js/alist.json"
-	  },
+	  },*/
+
+       {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./fm/alist.json",
+      "jar": "./fm/custom_spider.jar"
+    },
+
         {
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
@@ -192,7 +204,7 @@
 {"key":"csp_Dm84","name":"SP|巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"jar":"./fm/custom_spider.jar"},
 {"key": "csp_Ysj","name": "SP|异界","type": 3,"api": "csp_Ysj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./fm/custom_spider.jar"},
 {"key":"Ying","name":"SP|樱花","type":3,"api":"csp_Ying","searchable":1,"quickSearch":1,"filterable":1,"jar":"./fm/custom_spider.jar"},
-{
+/*{
             "key": "世界杯",
             "name": "SP|一起",
             "type": "3",
@@ -280,6 +292,7 @@
             "ext": "78d057e4d03e47cb62dce13d69b41d6f",
             "jar": "./Tangs/tang.jar"
         },
+        */
         {"key":"csp_Yj1211","name":"SP|JustLive","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Bili","name":"SP|哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Bili.json"},
         {"key":"csp_Bili幼儿","name":"SP|哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%B9%BC%E5%84%BF%E4%B9%90%E5%9B%AD.json"},
