@@ -13,7 +13,7 @@ class Spider(Spider):
 		pass
 	def homeContent(self,filter):
 		result = {}
-		url = 'http://api.kunyu77.com/api.php/provide/filter'
+		url = 'http://api.tyun77.cn/api.php/provide/filter'
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		classes = []
@@ -28,7 +28,7 @@ class Spider(Spider):
 			result['filters'] = self.config['filter']	
 		return result
 	def homeVideoContent(self):
-		url = 'http://api.kunyu77.com/api.php/provide/homeBlock?type_id=0'
+		url = 'http://api.tyun77.cn/api.php/provide/homeBlock?type_id=0'
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		blockList = jo['data']['blocks']
@@ -58,7 +58,7 @@ class Spider(Spider):
 			if fp in extend.keys():
 				params[idx] = '&'+filterParams[idx]+'='+extend[fp]
 		suffix = ''.join(params)
-		url = 'http://api.kunyu77.com/api.php/provide/searchFilter?pagesize=24{0}'.format(suffix)
+		url = 'http://api.tyun77.cn/api.php/provide/searchFilter?pagesize=24{0}'.format(suffix)
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		vodList = jo['data']['result']
@@ -78,7 +78,7 @@ class Spider(Spider):
 		return result
 	def detailContent(self,array):
 		tid = array[0]
-		url = 'http://api.kunyu77.com/api.php/provide/videoDetail?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&version=1.8.7&ids={0}'.format(tid)
+		url = 'http://api.tyun77.cn/api.php/provide/videoDetail?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&version=1.8.7&ids={0}'.format(tid)
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		node = jo['data']
@@ -94,7 +94,7 @@ class Spider(Spider):
 			"vod_director":node['director'],
 			"vod_content":node['brief'].strip()
 		}
-		listUrl = 'http://api.kunyu77.com/api.php/provide/videoPlaylist?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&version=1.8.7&ids={0}'.format(tid)
+		listUrl = 'http://api.tyun77.cn/api.php/provide/videoPlaylist?devid=453CA5D864457C7DB4D0EAA93DE96E66&package=com.sevenVideo.app.android&version=1.8.7&ids={0}'.format(tid)
 		listRsp = self.fetch(listUrl,headers=self.header)
 		listJo = json.loads(listRsp.text)
 		playMap = {}
@@ -128,7 +128,7 @@ class Spider(Spider):
 		return result
 
 	def searchContent(self,key,quick):		
-		url = 'http://api.kunyu77.com/api.php/provide/searchVideo?searchName={0}'.format(key)
+		url = 'http://api.tyun77.cn/api.php/provide/searchVideo?searchName={0}'.format(key)
 		rsp = self.fetch(url,headers=self.header)
 		jo = json.loads(rsp.text)
 		vodList = jo['data']
@@ -154,7 +154,7 @@ class Spider(Spider):
 	}
 	def playerContent(self,flag,id,vipFlags):
 		result = {}
-		url = 'http://api.kunyu77.com/api.php/provide/parserUrl?url={0}'.format(id)
+		url = 'http://api.tyun77.cn/api.php/provide/parserUrl?url={0}'.format(id)
 		jo = self.fetch(url,headers=self.header).json()
 		result = {
 			'parse':0,
