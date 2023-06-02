@@ -83,12 +83,12 @@
     
     //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
     //线路截取数组前
-    "tab_arr_rule": "body&&.tab-item",
+    "tab_arr_rule": ".module-player-tab&&.module-tab-item",
     //线路标题，截取前缀&&截取后缀
-    "tab_title": "span&&Text",
+    "tab_title": "Text",
     
     //列表数组截取前，必须
-    "list_arr_rule": "body&&.scroll-box-y",
+    "list_arr_rule": "body&&[id^=sort-item]",
     //集数数组截取前，必须
     "epi_arr_rule": "a",
     //集数标题，截取前缀&&截取后缀
