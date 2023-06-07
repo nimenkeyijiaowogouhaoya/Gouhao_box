@@ -342,6 +342,16 @@
             "ext": "./dr_js/js/宝片视频.js"
         },
         {
+            "key": "csp_XYQHiker_4kGod",
+            "name": "4kGod(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/4kGod.json"
+        },
+        {
             "key": "csp_XYQHiker_影咖",
             "name": "影咖(XYQH)",
             "type": 3,
