@@ -35,7 +35,6 @@
       "ext": "./fm/alist.json",
       "jar": "./fm/custom_spider.jar"
     },
-
         {
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
@@ -291,8 +290,7 @@
             "filterable": "1",
             "ext": "78d057e4d03e47cb62dce13d69b41d6f",
             "jar": "./Tangs/tang.jar"
-        },
-        */
+        },*/
         {"key":"csp_Yj1211","name":"SP|JustLive","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Bili","name":"SP|哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Bili.json"},
         {"key":"csp_Bili幼儿","name":"SP|哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%B9%BC%E5%84%BF%E4%B9%90%E5%9B%AD.json"},
@@ -322,7 +320,7 @@
          "filterable": 1,
          "ext": "https://www.freeok.vip/api.php/app/"
         },
-        {
+		{
 			"key": "暴风",
 			"name": "暴风",
 			"type": 1,
@@ -391,6 +389,16 @@
             "ext": "./XYQHiker/端木影视.json"
         },
         {
+            "key": "csp_XYQHiker_jojo",
+            "name": "jojo(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/jojo.json"
+        },
+        {
             "key": "csp_XYQHiker_蛋蛋剧",
             "name": "蛋蛋剧(XYQH)",
             "type": 3,
@@ -400,7 +408,7 @@
             "filterable": 1,
             "ext": "./XYQHiker/蛋蛋剧.json"
         },
-       {
+       /*{
            "key": "熊熊",
            "name": "熊熊",
            "type": 1,
@@ -408,7 +416,17 @@
            "playUrl": "https://player.3412.net.cn/?url=",
            "searchable": 1,
            "changeable": 1
-       },
+       },*/
+       {
+            "key": "csp_XYQBiu_磁力熊",
+            "name": "磁力熊(XYQ)",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./XYQBiu/磁力熊.json"
+        },
         {
             "key": "csp_XYQHiker_异世琳琅",
             "name": "异世琳琅(XYQH)",
@@ -729,6 +747,7 @@
             "filterable": 0,
             "ext": "./XYQBiu/蛋蛋赞.json"
         },
+
         {
             "key": "csp_XYQBiu_斗鱼直播",
             "name": "斗鱼直播(XYQ)",
