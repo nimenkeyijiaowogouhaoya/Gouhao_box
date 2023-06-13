@@ -193,6 +193,7 @@
         {"key": "csp_XYQHikerAL_呆瓜鸡","name":"📀呆瓜鸡","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/呆瓜鸡.json"},
 		{"key": "csp_XYQHikerAL_柒月吧","name":"📀柒月吧","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/柒月吧.json"},
 		{"key": "csp_XYQHikerAL_人人阿里","name":"📀人人阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/人人阿里.json"},
+        {"key": "csp_XYQHikerAL_人人阿里","name":"📀橘子盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/橘子盘搜.json"},
 {"key":"csp_Kunyu77","name":"SP|七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"SP|苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1},
 {"key":"快看","name":"SP|快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
