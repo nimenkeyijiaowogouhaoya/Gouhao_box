@@ -326,7 +326,7 @@
 			"key": "暴风",
 			"name": "暴风",
 			"type": 1,
-			"api": "http://bfzy.tv/api.php/provide/vod/",
+			"api": "http://bfzy.tv/api.php/provide/vod",
 			"searchable": 1,
 			"quickSearch": 1
 		},
