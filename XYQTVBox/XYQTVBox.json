@@ -182,7 +182,7 @@
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
       "jar": "./fm/custom_spider.jar"
     },
-
+ 
         {"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" ,  "jar": "./custom_spider.jar"  },
         {"key":"csp_Zhaozy","name":"📀找资源","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "./custom_spider.jar" },
         {"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt, “ ",  "jar": "./custom_spider.jar" },
@@ -204,6 +204,7 @@
 		/*{"key": "csp_XYQHikerAL_柒月吧","name":"📀柒月吧","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/柒月吧.json"},*/
 		{"key": "csp_XYQHikerAL_人人阿里","name":"📀人人阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/人人阿里.json"},
         {"key": "csp_XYQHikerAL_橘子盘搜","name":"📀橘子盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/橘子盘搜.json"},
+        {"key": "csp_XYQBiu_口袋阿里","name":"📀口袋阿里(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/口袋阿里.json"},
 {"key":"csp_Kunyu77","name":"SP|七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"SP|苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1},
 {"key":"快看","name":"SP|快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
@@ -604,7 +605,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/Moefun.json"
-        },{
+        },
+        /*{
             "key": "csp_XYQHiker_嗷呜番",
             "name": "嗷呜番(XYQH)",
             "type": 3,
@@ -613,7 +615,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/嗷呜番.json"
-        },
+        },*/
 
         {
             "key": "csp_XYQHiker_不可视境界线",
