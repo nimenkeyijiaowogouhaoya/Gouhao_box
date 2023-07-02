@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://www.dmoe.cc/random.php",
-    "spider": "./custom_spider.jar",
+    "spider": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar",
     "lives": [{
 		    "name": "live",
             "playerType":"1",
@@ -14,15 +14,15 @@
 			"key": "js加密_仓库通用",
 			"name": "直播转点播",
 			"type": 3,
-			"api": "./lives/直播转点播.js",
-			"ext": "./lives/直播仓库.json"
+			"api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/lives/直播转点播.js",
+			"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/lives/直播仓库.json"
 	 },
 	  /*{
 	    "key":"drpy_js_Alist",
 	    "name":"DR| Alist[js]",
 	    "type":3,
-	    "api":"./dr_js/lib/alist.min.js",
-	    "ext":"./dr_js/alist.json"
+	    "api":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/alist.min.js",
+	    "ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/alist.json"
 	  },*/
 
        {
@@ -32,57 +32,57 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./fm/alist.json",
-      "jar": "./fm/custom_spider.jar"
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/alist.json",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
         {
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/豆瓣.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/豆瓣.js"
         },
         {
             "key": "drpy_js_360影视",
             "name": "官源|360[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/360影视.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/360影视.js"
         },
         {
             "key": "drpy_js_菜狗",
             "name": "官源|搜狗[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/菜狗.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/菜狗.js"
         },
         {
             "key": "drpy_js_奇珍异兽",
             "name": "官源|奇艺[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/奇珍异兽.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/奇珍异兽.js"
         },
         {
             "key": "drpy_js_优酷",
             "name": "官源|优酷[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/优酷.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/优酷.js"
         },
         {
             "key": "drpy_js_腾云驾雾",
             "name": "官源|腾讯[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/腾云驾雾.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/腾云驾雾.js"
         },
         {
             "key": "drpy_js_百忙无果",
             "name": "官源|芒果[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/百忙无果.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/百忙无果.js"
         },
     {
       "key": "WebDAV",
@@ -92,8 +92,8 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "./fm/webdav.json",
-      "jar": "./fm/custom_spider.jar"
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/webdav.json",
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
     /*{ 
      "key": "紙條",
@@ -104,7 +104,7 @@
      "filterable": 1,
      "changeable": 0,
      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-     "jar": "./fm/custom_spider.jar" 
+     "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar" 
      },
     { 
     "key": "易搜",
@@ -115,7 +115,7 @@
     "filterable": 0,
     "changeable": 0,
     "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-    "jar": "./fm/custom_spider.jar"
+    "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },   */ 
     {
     "key": "盤搜",
@@ -126,7 +126,7 @@
     "filterable": 0,
     "changeable": 0,
     "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-    "jar": "./fm/custom_spider.jar"
+    "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },    
     {
     "key": "UP雲搜",
@@ -137,7 +137,7 @@
     "filterable": 0,
     "changeable": 0,
     "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-    "jar": "./fm/custom_spider.jar"
+    "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },    
     { 
     "key": "找資源",
@@ -148,7 +148,7 @@
     "filterable": 0,
     "changeable": 0,
     "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt$$$zzygh$$$zzygh",
-    "jar": "./fm/custom_spider.jar"
+    "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
     {
       "key": "七夜",
@@ -159,7 +159,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar": "./fm/custom_spider.jar"
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
 	{
       "key": "盤搜索",
@@ -170,7 +170,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar": "./fm/custom_spider.jar"
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
     {
       "key": "玩偶",
@@ -180,31 +180,31 @@
       "searchable": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-      "jar": "./fm/custom_spider.jar"
+      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
  
-        {"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" ,  "jar": "./custom_spider.jar"  },
-        {"key":"csp_Zhaozy","name":"📀找资源","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "./custom_spider.jar" },
-        {"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt, “ ",  "jar": "./custom_spider.jar" },
-        {"key":"csp_Yisou","name":"📀易搜","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "./custom_spider.jar" },
-        {"key":"csp_Upyunso","name":"📀UP云搜","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "./custom_spider.jar" },
-        {"key": "csp_XYQHiker_土狗搜索","name":"📀土狗搜索(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土狗搜索.json"},
-        {"key": "csp_XYQHiker_DOVX搜索","name":"📀DOVX搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/DOVX搜索.json"},
-        {"key": "csp_XYQBiu_云盘分享","name":"📀云盘分享(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/云盘分享.json"},
-        {"key": "csp_XYQHiker_盘搜索","name":"📀盘搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/盘搜索.json"},
-        {"key": "csp_XYQHiker_玩偶哥哥","name": "📀玩偶哥哥(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/玩偶哥哥.json"},
-        {"key": "csp_XYQHiker_豆豆飞","name": "📀豆豆飞(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/豆豆飞.json"},
-        {"key": "csp_XYQHiker_阿里小站","name": "📀阿里小站(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/阿里小站.json"},
-        {"key": "csp_XYQHiker_云盘分享","name": "📀云盘分享(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/云盘分享.json"},
-        {"key": "csp_XYQHiker_校长影视","name": "📀校长影视(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/校长.json"},
-		{"key": "csp_XYQHiker_土拨鼠搜索","name":"📀土拨鼠(搜索)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/土拨鼠搜索.json"},
-		{"key": "csp_XYQHikerAL_4KHDR","name":"📀🧲4KHDR(盘/磁)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":0,"quickSearch":0,"filterable":1,"ext":"./XYQHiker/4KHDR.json"},
-		{"key": "csp_XYQHikerAL_阿里云盘网","name":"📀阿里云盘(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/阿里云盘网.json"},
-        {"key": "csp_XYQHikerAL_呆瓜鸡","name":"📀呆瓜鸡","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/呆瓜鸡.json"},
-		/*{"key": "csp_XYQHikerAL_柒月吧","name":"📀柒月吧","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/柒月吧.json"},*/
-		{"key": "csp_XYQHikerAL_人人阿里","name":"📀人人阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/人人阿里.json"},
-        {"key": "csp_XYQHikerAL_橘子盘搜","name":"📀橘子盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/橘子盘搜.json"},
-        {"key": "csp_XYQBiu_口袋阿里","name":"📀口袋阿里(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/口袋阿里.json"},
+        {"key":"Gitcafe","name":"📀小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt" ,  "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar"  },
+        {"key":"csp_Zhaozy","name":"📀找资源","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar" },
+        {"key":"csp_AliPS","name":"📀喵狸盘搜","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt, “ ",  "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar" },
+        {"key":"csp_Yisou","name":"📀易搜","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar" },
+        {"key":"csp_Upyunso","name":"📀UP云搜","type":3,"api":"csp_Upyunso","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",  "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/custom_spider.jar" },
+        {"key": "csp_XYQHiker_土狗搜索","name":"📀土狗搜索(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/土狗搜索.json"},
+        {"key": "csp_XYQHiker_DOVX搜索","name":"📀DOVX搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/DOVX搜索.json"},
+        {"key": "csp_XYQBiu_云盘分享","name":"📀云盘分享(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/云盘分享.json"},
+        {"key": "csp_XYQHiker_盘搜索","name":"📀盘搜索(XYQH)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/盘搜索.json"},
+        {"key": "csp_XYQHiker_玩偶哥哥","name": "📀玩偶哥哥(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/玩偶哥哥.json"},
+        {"key": "csp_XYQHiker_豆豆飞","name": "📀豆豆飞(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/豆豆飞.json"},
+        {"key": "csp_XYQHiker_阿里小站","name": "📀阿里小站(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/阿里小站.json"},
+        {"key": "csp_XYQHiker_云盘分享","name": "📀云盘分享(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/云盘分享.json"},
+        {"key": "csp_XYQHiker_校长影视","name": "📀校长影视(XYQH)","type": 3,"api": "csp_XYQHikerAL","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/校长.json"},
+		{"key": "csp_XYQHiker_土拨鼠搜索","name":"📀土拨鼠(搜索)","type":3,"api":"csp_XYQHiker","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/土拨鼠搜索.json"},
+		{"key": "csp_XYQHikerAL_4KHDR","name":"📀🧲4KHDR(盘/磁)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/4KHDR.json"},
+		{"key": "csp_XYQHikerAL_阿里云盘网","name":"📀阿里云盘(搜索)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/阿里云盘网.json"},
+        {"key": "csp_XYQHikerAL_呆瓜鸡","name":"📀呆瓜鸡","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/呆瓜鸡.json"},
+		/*{"key": "csp_XYQHikerAL_柒月吧","name":"📀柒月吧","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/柒月吧.json"},*/
+		{"key": "csp_XYQHikerAL_人人阿里","name":"📀人人阿里","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/人人阿里.json"},
+        {"key": "csp_XYQHikerAL_橘子盘搜","name":"📀橘子盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/橘子盘搜.json"},
+        {"key": "csp_XYQBiu_口袋阿里","name":"📀口袋阿里(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/口袋阿里.json"},
 {"key":"csp_Kunyu77","name":"SP|七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"SP|苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1},
 {"key":"快看","name":"SP|快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
@@ -212,9 +212,9 @@
 {"key":"csp_Czsapp","name":"SP|厂长","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czzy03.com"},
 {"key":"csp_DiDuan","name":"SP|低端","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"csp_SP360","name":"SP|360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Dm84","name":"SP|巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"jar":"./fm/custom_spider.jar"},
-{"key": "csp_Ysj","name": "SP|异界","type": 3,"api": "csp_Ysj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./fm/custom_spider.jar"},
-{"key":"Ying","name":"SP|樱花","type":3,"api":"csp_Ying","searchable":1,"quickSearch":1,"filterable":1,"jar":"./fm/custom_spider.jar"},
+{"key":"csp_Dm84","name":"SP|巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"},
+{"key": "csp_Ysj","name": "SP|异界","type": 3,"api": "csp_Ysj","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"},
+{"key":"Ying","name":"SP|樱花","type":3,"api":"csp_Ying","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"},
 /*{
             "key": "世界杯",
             "name": "SP|一起",
@@ -224,7 +224,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "8e3aefcba838d8dc5102ac786719d837",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Hei19",
@@ -235,7 +235,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "3bff500c8b1e06c052a1b0f1f7a62b45",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Lgyy",
@@ -246,7 +246,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "b2e573ff040fcd54b50475660ee1a7d1",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Smdyy",
@@ -257,7 +257,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "16705ee9f4764be8499806f52d4bf1e7",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Cokemv",
@@ -268,7 +268,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "b88de1329655cca1beba45aa9776de70",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Dy555",
@@ -279,7 +279,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "f41992bd740145ed58cb212dc0876582",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Zxzj",
@@ -290,7 +290,7 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "23a412dda32885ae2bcb97b956cd7ad4",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },
         {
             "key": "Lib",
@@ -301,17 +301,17 @@
             "quickSearch": "1",
             "filterable": "1",
             "ext": "78d057e4d03e47cb62dce13d69b41d6f",
-            "jar": "./Tangs/tang.jar"
+            "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/Tangs/tang.jar"
         },*/
         {"key":"csp_Yj1211","name":"SP|JustLive","type":3,"api":"csp_Yj1211","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_Bili","name":"SP|哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Bili.json"},
-        {"key":"csp_Bili幼儿","name":"SP|哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%B9%BC%E5%84%BF%E4%B9%90%E5%9B%AD.json"},
-        {"key":"csp_Bili少儿","name":"SP|哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json"},
-        {"key":"csp_Bili小学","name":"SP|哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json"},
-        {"key":"csp_Bili初中","name":"SP|哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json"},
-        {"key":"csp_Bili高中","name":"SP|哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json"},
-        {"key":"相声小品","name":"SP|哔哩相声","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Blixs.json"},
-        {"key": "戏 曲" ,"name": "SP|哔哩戏曲","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/bili/Blixq.json"},
+        {"key":"csp_Bili","name":"SP|哔哩哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/Bili.json"},
+        {"key":"csp_Bili幼儿","name":"SP|哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/%E5%B9%BC%E5%84%BF%E4%B9%90%E5%9B%AD.json"},
+        {"key":"csp_Bili少儿","name":"SP|哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2.json"},
+        {"key":"csp_Bili小学","name":"SP|哔哩小学","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json"},
+        {"key":"csp_Bili初中","name":"SP|哔哩初中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json"},
+        {"key":"csp_Bili高中","name":"SP|哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json"},
+        {"key":"相声小品","name":"SP|哔哩相声","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/Blixs.json"},
+        {"key": "戏 曲" ,"name": "SP|哔哩戏曲","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/bili/Blixq.json"},
         {
          "key": "csp_appys_多米",
          "name": "多米",
@@ -344,14 +344,14 @@
             "key": "drpy_js_次元城动漫",
             "name": "次元城动漫[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/次元城动漫.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/次元城动漫.js"
         },{
             "key": "drpy_js_宝片视频",
             "name": "宝片[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/宝片视频.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/宝片视频.js"
         },
         {
             "key": "csp_XYQHiker_4kGod",
@@ -361,7 +361,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/4kGod.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/4kGod.json"
         },
          {
             "key": "csp_XYQHiker_猫放时光",
@@ -371,7 +371,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/猫放时光.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/猫放时光.json"
         },
         {
             "key": "csp_XYQHiker_影咖",
@@ -381,7 +381,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/影咖.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/影咖.json"
         },/*{
             "key": "csp_XYQHiker_片库网",
             "name": "片库网(XYQH)",
@@ -390,7 +390,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/片库网.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/片库网.json"
         },*/{
             "key": "csp_XYQHiker_囧次元",
             "name": "囧次元(XYQH)",
@@ -399,7 +399,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/囧次元.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/囧次元.json"
         },{
             "key": "csp_XYQHiker_yoifun",
             "name": "yoifun(XYQH)",
@@ -408,7 +408,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/yoifun.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/yoifun.json"
         },
         {
             "key": "csp_XYQHiker_端木影视",
@@ -418,7 +418,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/端木影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/端木影视.json"
         },
         {
             "key": "csp_XYQHiker_jojo",
@@ -428,7 +428,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/jojo.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/jojo.json"
         },
         {
             "key": "csp_XYQHiker_蛋蛋剧",
@@ -438,7 +438,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/蛋蛋剧.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/蛋蛋剧.json"
         },
        /*{
            "key": "熊熊",
@@ -457,7 +457,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQBiu/磁力熊.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/磁力熊.json"
         },
         {
             "key": "csp_XYQHiker_异世琳琅",
@@ -467,7 +467,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/异世琳琅.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/异世琳琅.json"
         },{
             "key": "csp_XYQHiker_一龙影视",
             "name": "一龙影视(XYQH)",
@@ -476,7 +476,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/一龙影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/一龙影视.json"
         },
           {
             "key": "csp_XYQHiker_看看剧",
@@ -486,7 +486,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/看看剧.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/看看剧.json"
         },
         {
             "key": "csp_XYQHiker_茶杯狐",
@@ -496,7 +496,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/茶杯狐.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/茶杯狐.json"
         },{
             "key": "csp_XYQHiker_电影盒子",
             "name": "电影盒子(XYQH)",
@@ -505,7 +505,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/电影盒子.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/电影盒子.json"
         }
         ,{
             "key": "csp_XYQHiker_港剧云播",
@@ -515,7 +515,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/港剧云播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/港剧云播.json"
         },
         {
             "key": "csp_XYQHiker_柒之社",
@@ -525,7 +525,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/柒之社.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/柒之社.json"
         },
        {
             "key": "csp_XYQHiker_次元动漫",
@@ -535,7 +535,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/次元动漫.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/次元动漫.json"
         },
                 {
             "key": "csp_XYQHiker_风车动漫",
@@ -545,7 +545,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/风车动漫.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/风车动漫.json"
         },
         
         {
@@ -556,7 +556,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/风车动漫1.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/风车动漫1.json"
         },
                 {
             "key": "csp_XYQHiker_橘子动漫",
@@ -566,7 +566,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/橘子动漫.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/橘子动漫.json"
         },
         {
             "key": "csp_XYQHiker_66影视",
@@ -576,7 +576,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/66影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/66影视.json"
         },{
             "key": "csp_XYQHiker_AcgNya",
             "name": "AcgNya(XYQH)",
@@ -585,7 +585,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/AcgNya.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/AcgNya.json"
         },{
             "key": "csp_XYQHiker_番剧",
             "name": "番剧(XYQH)",
@@ -594,7 +594,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/番剧.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/番剧.json"
         },{
             "key": "csp_XYQHiker_elfun",
             "name": "elfun(XYQH)",
@@ -603,7 +603,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/elfun.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/elfun.json"
         },
        
         {
@@ -614,7 +614,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/Moefun.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/Moefun.json"
         },
         /*{
             "key": "csp_XYQHiker_嗷呜番",
@@ -624,7 +624,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/嗷呜番.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/嗷呜番.json"
         },*/
 
         {
@@ -635,7 +635,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/不可视境界线.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/不可视境界线.json"
         },
         {
             "key": "csp_XYQHiker_HG影视",
@@ -645,7 +645,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/HG影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/HG影视.json"
         },
         {
             "key": "csp_XYQHiker_咕咕番",
@@ -655,7 +655,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/咕咕番.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/咕咕番.json"
         },
         {
             "key": "csp_XYQHiker_出差番",
@@ -665,7 +665,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/出差番.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/出差番.json"
         },
         /*{
             "key": "csp_XYQHiker_可达鸭",
@@ -675,7 +675,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/可达鸭.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/可达鸭.json"
         },*/
                 
 
@@ -687,7 +687,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/蓝猫动漫.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/蓝猫动漫.json"
         },
         {
             "key": "csp_XYQHiker_趣动漫",
@@ -697,7 +697,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/趣动漫.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/趣动漫.json"
         },
         {
             "key": "csp_XYQHiker_Mutefun",
@@ -707,7 +707,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/Mutefun.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/Mutefun.json"
         },
         {
             "key": "csp_XYQHiker_热播之家",
@@ -717,7 +717,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/热播之家.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/热播之家.json"
         },
         {
             "key": "csp_XYQHiker_鸭奈飞影视",
@@ -727,7 +727,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/鸭奈飞影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/鸭奈飞影视.json"
         },
         {
             "key": "csp_XYQHiker_皮皮泡",
@@ -737,7 +737,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/皮皮泡.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/皮皮泡.json"
         },
         {
             "key": "csp_XYQHiker_追剧达人",
@@ -747,7 +747,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/追剧达人.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/追剧达人.json"
         },
         {
             "key": "csp_XYQHiker_农民影视",
@@ -757,7 +757,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/农民影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/农民影视.json"
         },
         {
             "key": "csp_XYQHiker_乐猪影视",
@@ -767,7 +767,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/乐猪TV.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/乐猪TV.json"
         },
         {
             "key": "csp_XYQHiker_素白白影视",
@@ -777,7 +777,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/素白白影视.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/素白白影视.json"
         },
         {
             "key": "csp_XYQBiu_蛋蛋赞",
@@ -787,7 +787,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./XYQBiu/蛋蛋赞.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/蛋蛋赞.json"
         },
 
         {
@@ -798,7 +798,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./XYQBiu/斗鱼直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/斗鱼直播.json"
         },
         {
             "key": "csp_XYQHiker_虎牙直播",
@@ -808,7 +808,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQHiker/虎牙直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/虎牙直播.json"
         },
         {
             "key": "csp_XYQBiu_网易CC直播",
@@ -818,7 +818,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQBiu/网易CC直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/网易CC直播.json"
         },
         {
             "key": "csp_XYQBiu_310直播",
@@ -828,7 +828,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQBiu/310直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/310直播.json"
         },
         {
             "key": "csp_XYQBiu_抓饭直播",
@@ -838,7 +838,7 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQBiu/抓饭直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/抓饭直播.json"
         },
         {
             "key": "csp_XYQHiker_无插件直播",
@@ -848,35 +848,35 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./XYQHiker/无插件直播.json"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/无插件直播.json"
         },
         {
             "key": "drpy_js_斗鱼直播",
             "name": "斗鱼直播[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/斗鱼直播.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/斗鱼直播.js"
         },
         {
             "key": "drpy_js_虎牙直播",
             "name": "虎牙直播[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/虎牙直播.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/虎牙直播.js"
         },
         {
             "key": "drpy_js_JustLive",
             "name": "JustLive[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/JustLive.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/JustLive.js"
         },
         {
             "key": "drpy_js_哔哩直播",
             "name": "哔哩直播[DRPY]",
             "type": 3,
-            "api": "./dr_js/lib/drpy2.min.js",
-            "ext": "./dr_js/js/哔哩直播.js"
+            "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/哔哩直播.js"
         },
 		{
 			"key": "1080资源库",
@@ -922,7 +922,7 @@
             "searchable" : 1,
             "quickSearch" : 1,
             "filterable" : 1,
-            "ext" : "./dr_py/py/py_douban.py"
+            "ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_douban.py"
         },
         {
             "key": "py_kunyu77",
@@ -932,7 +932,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_kunyu77.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_kunyu77.py"
         },
         {
             "key": "py_jrskbs",
@@ -942,7 +942,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_jrskbs.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_jrskbs.py"
         },
         {
             "key" : "py_qie",
@@ -952,7 +952,7 @@
             "searchable" : 1,
             "quickSearch" : 1,
             "filterable" : 1,
-            "ext" : "./dr_py/py/py_qie.py"
+            "ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_qie.py"
         },
         {
             "key": "py_huya",
@@ -962,7 +962,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_huya.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_huya.py"
         },
         {
             "key": "py_douyu",
@@ -972,7 +972,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_douyu.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_douyu.py"
         },
         {
             "key": "py_gimytv",
@@ -982,7 +982,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_gimytv.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_gimytv.py"
         },
         {
             "key": "py_genmov",
@@ -992,7 +992,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_genmov.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_genmov.py"
         },
         {
             "key": "py_czspp",
@@ -1002,7 +1002,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_czspp.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_czspp.py"
         },
         {
             "key": "py_ikan",
@@ -1012,7 +1012,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_ikan.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_ikan.py"
         },
         {
         "key" : "py_zxzj",
@@ -1022,7 +1022,7 @@
         "searchable" : 1,
         "quickSearch" : 1,
         "filterable" : 1,
-        "ext" : "./dr_py/py/py_zxzj.py"
+        "ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_zxzj.py"
         },
         {
         "key":"py_wmkk",
@@ -1032,7 +1032,7 @@
         "searchable":1,
         "quickSearch":1,
         "filterable":1,
-        "ext":"./dr_py/py/py_wmkk.py"
+        "ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_wmkk.py"
         },
         {
         "key" : "py_cyys",
@@ -1042,12 +1042,12 @@
         "searchable" : 1,
         "quickSearch" : 1,
         "filterable" : 1,
-        "ext" : "./dr_py/py/py_cyys.py"
+        "ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cyys.py"
         },
-{"key" : "py_yixi","name" : "py_一席视频","type" : 3,"api" : "py_yixi","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_yixi.py"},
-{"key" : "py_baiying","name" : "py_百影视频","type" : 3,"api" : "py_baiying","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_baiying.py"},
-{"key" : "py_cokemv","name" : "py_cokemv","type" : 3,"api" : "py_cokemv","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_cokemv.py"},
-{"key" : "py_lezhu","name" : "py_乐猪影视","type" : 3,"api" : "py_lezhu","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "./dr_py/py/py_lezhu.py"},
+{"key" : "py_yixi","name" : "py_一席视频","type" : 3,"api" : "py_yixi","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_yixi.py"},
+{"key" : "py_baiying","name" : "py_百影视频","type" : 3,"api" : "py_baiying","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_baiying.py"},
+{"key" : "py_cokemv","name" : "py_cokemv","type" : 3,"api" : "py_cokemv","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cokemv.py"},
+{"key" : "py_lezhu","name" : "py_乐猪影视","type" : 3,"api" : "py_lezhu","searchable" : 1,"quickSearch" : 1,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_lezhu.py"},
         {
             "key": "py_xmly",
             "name": "py_喜马拉雅",
@@ -1056,7 +1056,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_xmly.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_xmly.py"
         },
         {
             "key": "py_cctv",
@@ -1066,19 +1066,19 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_cctv.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctv.py"
         },
-        {"key" : "py_cctvzh","name" : "py_央视综合","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvzh.py"},
-        {"key" : "py_cctvxw","name" : "py_央视新闻","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvxw.py"},
-        {"key" : "py_cctvzy","name" : "py_央视综艺","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvzy.py"},
-        {"key" : "py_cctvdy","name" : "py_央视电影","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvdy.py"},
-        {"key" : "py_cctvty","name" : "py_央视体育","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvty.py"},
-        {"key" : "py_cctvkj","name" : "py_央视科教","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvkj.py"},
-        {"key" : "py_cctvyy","name" : "py_央视音乐","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvyy.py"},
-        {"key" : "py_cctvse","name" : "py_央视少儿","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvse.py"},
-        {"key" : "py_cctvny","name" : "py_央视农业","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvny.py"},
-        {"key" : "py_cctvjs","name" : "py_央视军事","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvjs.py"},
-        {"key" : "py_cctvxq","name" : "py_央视戏曲","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "./dr_py/py/py_cctvxq.py"},
+        {"key" : "py_cctvzh","name" : "py_央视综合","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvzh.py"},
+        {"key" : "py_cctvxw","name" : "py_央视新闻","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvxw.py"},
+        {"key" : "py_cctvzy","name" : "py_央视综艺","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvzy.py"},
+        {"key" : "py_cctvdy","name" : "py_央视电影","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvdy.py"},
+        {"key" : "py_cctvty","name" : "py_央视体育","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvty.py"},
+        {"key" : "py_cctvkj","name" : "py_央视科教","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvkj.py"},
+        {"key" : "py_cctvyy","name" : "py_央视音乐","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvyy.py"},
+        {"key" : "py_cctvse","name" : "py_央视少儿","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvse.py"},
+        {"key" : "py_cctvny","name" : "py_央视农业","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvny.py"},
+        {"key" : "py_cctvjs","name" : "py_央视军事","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvjs.py"},
+        {"key" : "py_cctvxq","name" : "py_央视戏曲","type" : 3,"api" : "py_cctv","searchable" : 0,"quickSearch" : 0,"filterable" : 1,"ext" : "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_cctvxq.py"},
         {
             "key": "py_ali",
             "name": "py_ali(Pyramid)",
@@ -1087,7 +1087,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "./dr_py/py/py_ali.py"
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_py/py/py_ali.py"
         },
         {
             "key": "push_agent",
