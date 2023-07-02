@@ -383,7 +383,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/影咖.json"
-        },/*{
+        },
+	    /*{
             "key": "csp_XYQHiker_片库网",
             "name": "片库网(XYQH)",
             "type": 3,
@@ -392,7 +393,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/片库网.json"
-        },*/{
+        },*/
+	    {
             "key": "csp_XYQHiker_囧次元",
             "name": "囧次元(XYQH)",
             "type": 3,
@@ -401,7 +403,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/囧次元.json"
-        },{
+        },
+	    {
             "key": "csp_XYQHiker_yoifun",
             "name": "yoifun(XYQH)",
             "type": 3,
