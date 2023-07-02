@@ -525,9 +525,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E6%9F%92%E4%B9%8B%E7%A4%BE.json"
+            "ext": "./XYQHiker/柒之社.json"
         },
-        {
+       {
             "key": "csp_XYQHiker_次元动漫",
             "name": "次元动漫(XYQH)",
             "type": 3,
@@ -535,9 +535,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E6%AC%A1%E5%85%83%E5%8A%A8%E6%BC%AB.json"
+            "ext": "./XYQHiker/次元动漫.json"
         },
-        {
+                {
             "key": "csp_XYQHiker_风车动漫",
             "name": "风车动漫(XYQH)",
             "type": 3,
@@ -545,9 +545,10 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E9%A3%8E%E8%BD%A6%E5%8A%A8%E6%BC%AB.json"
+            "ext": "./XYQHiker/风车动漫.json"
         },
-         {
+        
+        {
             "key": "csp_XYQHiker_风车动漫1",
             "name": "风车动漫1💧(XYQH)",
             "type": 3,
@@ -555,9 +556,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E9%A3%8E%E8%BD%A6%E5%8A%A8%E6%BC%AB1.json"
+            "ext": "./XYQHiker/风车动漫1.json"
         },
-        {
+                {
             "key": "csp_XYQHiker_橘子动漫",
             "name": "橘子动漫(XYQH)",
             "type": 3,
@@ -565,7 +566,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://codeberg.org/gouhaoya/Tvbox_zy/raw/branch/master/XYQTVBox/XYQHiker/%E6%A9%98%E5%AD%90%E5%8A%A8%E6%BC%AB.json"
+            "ext": "./XYQHiker/橘子动漫.json"
         },
         {
             "key": "csp_XYQHiker_66影视",
