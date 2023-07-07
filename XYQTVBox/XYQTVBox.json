@@ -35,13 +35,23 @@
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/alist.json",
       "jar": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"
     },
-        {
+        /*{
             "key": "drpy_js_豆瓣",
             "name": "聚合|豆瓣[DRPY]",
             "type": 3,
             "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
             "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/豆瓣.js"
-        },
+        },*/
+       {
+        "key": "If_js_douban",
+        "name": "豆瓣┃If_douban",
+        "type": 3,
+        "searchable": 0,
+        "quickSearch": 0,
+        "filterable": 1,
+        "api": "./dr_js/js/lf_douban1_min.js"
+         },
+	    
         {
             "key": "drpy_js_360影视",
             "name": "官源|360[DRPY]",
