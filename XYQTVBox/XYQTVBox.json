@@ -365,7 +365,7 @@
         },
        {
             "key": "drpy_js_荐片",
-            "name": "宝片[DRPY]",
+            "name": "荐片[DRPY]",
             "type": 3,
             "api": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/lib/drpy2.min.js",
             "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/dr_js/js/荐片.js"
