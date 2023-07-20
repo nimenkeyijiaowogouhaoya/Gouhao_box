@@ -216,10 +216,13 @@
         {"key": "csp_XYQHikerAL_橘子盘搜","name":"📀橘子盘搜","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/橘子盘搜.json"},
         {"key": "csp_XYQBiu_口袋阿里","name":"📀口袋阿里(XYQ)","type":3,"api":"csp_XYQBiu","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQBiu/口袋阿里.json"},
 {"key":"csp_Kunyu77","name":"SP|七七","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Ikanbot","name": "Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "csp_Mp4Mov","name": "🧲Mp4电影","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key":"csp_JianPian","name":"🔨荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"小苹果","name":"SP|苹果","type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1},
 {"key":"快看","name":"SP|快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Bd","name":"SP|哔嘀","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_Czsapp","name":"SP|厂长","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czzy03.com"},
+{"key":"csp_Czsapp","name":"SP|厂长","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://czzy.fun"},
 {"key":"csp_DiDuan","name":"SP|低端","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"csp_SP360","name":"SP|360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Dm84","name":"SP|巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/fm/custom_spider.jar"},
@@ -412,6 +415,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/囧次元.json"
+        },
+	 {
+            "key": "csp_XYQHiker_喵物次元",
+            "name": "喵物次元(XYQH)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/nimenkeyijiaowogouhaoya/Gouhao_box/master/XYQTVBox/XYQHiker/喵物次元.json"
         },
 	    {
             "key": "csp_XYQHiker_yoifun",
